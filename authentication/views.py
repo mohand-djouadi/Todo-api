@@ -54,8 +54,9 @@ def signUp(request):
             )
             user.full_clean()
             user.save()
-
+            token = get_token(request)
             userData = model_to_dict(User.objects.get(username=user.username))
+            userData['token'] = token
             return JsonResponse(userData, status=201)
         except json.JSONDecodeError:
             return JsonResponse({'error': 'format de donnee invalid'}, status=400)

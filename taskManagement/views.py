@@ -2,6 +2,7 @@ from taskManagement.models import Task
 from django.http import JsonResponse
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import csrf_protect
+from django.shortcuts import get_object_or_404
 import json
 
 @login_required
@@ -10,7 +11,7 @@ def get_tasks(request):
     if request.method == 'GET':
         try:
             tasks = Task.objects.filter(user=request.user)
-            tasks_data = [{'id': task.id, 'title': task.title, 'description': task.description, 'done': task.done}
+            tasks_data = [{'id': task.id, 'title': task.title, 'location':task.location, 'description': task.description, 'done': task.done}
                           for task in tasks]
             return JsonResponse({'tasks':tasks_data}, status=200)
         except json.JSONDecodeError:
@@ -37,3 +38,35 @@ def add_task(request):
             return JsonResponse({'error':'Format de données JSON incorrect'},status=400)
     else:
         return JsonResponse({'error':'methode HTTP non autorise'},status=405)
+
+@login_required
+@csrf_protect
+def edit_task(request,id):
+    if request.method == 'PUT':
+        try:
+            taskToEdit = json.loads(request.body)
+            currentTask = get_object_or_404(Task, id=id)
+            currentTask.title = taskToEdit.get('title', currentTask.title)
+            currentTask.location = taskToEdit.get('location', currentTask.location)
+            currentTask.taskDate = taskToEdit.get('taskDate', currentTask.taskDate)
+            currentTask.done = taskToEdit.get('done', currentTask.done)
+            currentTask.description = taskToEdit.get('description', currentTask.description)
+            currentTask.save()
+            return JsonResponse({'message':'task updated succesfully'}, status=201)
+        except json.JSONDecodeError:
+            return JsonResponse({'error':'donne JSON invalide'}, status=400)
+    else:
+        return JsonResponse({'error':'methode HTTP non authorise'}, status=405)
+
+@login_required
+@csrf_protect
+def delete_task(request,id):
+    if request.method == 'DELETE':
+        try:
+            taskToDelete = get_object_or_404(Task, id=id)
+            taskToDelete.delete()
+            return JsonResponse({'message':'task deleted succesfully'}, status=200)
+        except json.JSONDecodeError:
+            return JsonResponse({'error':'donner JSON non valide'}, status=400)
+    else:
+        return JsonResponse({'error':'methodle HTTP non autorizer'}, status=405)

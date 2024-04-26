@@ -10,6 +10,6 @@ urlpatterns = [
     path('auth/signup', authentication.views.signUp, name='signup'),
     path('task/', taskManagement.views.get_tasks, name='get-tasks'),
     path('task/add/', taskManagement.views.add_task, name='add-task'),
-    # path('task/edit'),
-    # path('task/delete/')
+    path('task/edit/<int:id>', taskManagement.views.edit_task, name='edit-task'),
+    path('task/delete/<int:id>', taskManagement.views.delete_task, name='delete-task')
 ]
