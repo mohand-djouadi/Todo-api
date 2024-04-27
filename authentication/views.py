@@ -1,6 +1,7 @@
-from django.contrib.auth import authenticate,login
+from django.contrib.auth import authenticate,login,logout
 from django.http import JsonResponse
-from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.csrf import csrf_exempt,csrf_protect
+from django.contrib.auth.decorators import login_required
 from django.core.exceptions import ValidationError
 from django.forms.models import model_to_dict
 from django.middleware.csrf import get_token
@@ -55,6 +56,7 @@ def signUp(request):
             user.full_clean()
             user.save()
             token = get_token(request)
+            login(request, user)
             userData = model_to_dict(User.objects.get(username=user.username))
             userData['token'] = token
             return JsonResponse(userData, status=201)
@@ -65,3 +67,29 @@ def signUp(request):
             return JsonResponse({'error': error}, status=400)
     else:
         return JsonResponse({'error': 'methode HTTP non autoriser'}, status=405)
+
+@login_required
+@csrf_protect
+def change_password(request):
+    if request.method == 'PUT':
+        try:
+            userInuputs = json.loads(request.body)
+            currentPassword = userInuputs.get('current_password', '')
+            newPassword = userInuputs.get('new_password', '')
+            confirmPasssword = userInuputs.get('confirmation', '')
+            if not request.user.check_password(currentPassword):
+                return JsonResponse({'error': 'le mot de pass actuelle est incorrect'}, status=400)
+            if newPassword == confirmPasssword:
+                request.user.set_password(newPassword)
+                return JsonResponse({'message':'mot de pass changer avec succes'}, status=201)
+            else:
+                return JsonResponse({'error': 'mot de pass ne pas confirmer'}, status=400)
+        except json.JSONDecodeError:
+            return JsonResponse({'error':'donnee JSON invalide'}, status=400)
+    else:
+        return JsonResponse({'eror':'methode HTTP non autoriser'}, status=405)
+
+@login_required
+def logOut(request):
+    logout(request)
+    return JsonResponse({'message':'user logged out'}, status=200)
