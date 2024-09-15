@@ -3,7 +3,9 @@ from django.http import JsonResponse
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import csrf_protect
 from django.shortcuts import get_object_or_404
+from taskManagement.models import Comment
 import json
+from datetime import date
 
 @login_required
 @csrf_protect
@@ -70,3 +72,24 @@ def delete_task(request,id):
             return JsonResponse({'error':'donner JSON non valide'}, status=400)
     else:
         return JsonResponse({'error':'methodle HTTP non autorizer'}, status=405)
+
+@login_required
+@csrf_protect
+def addCommentToTask(request, id):
+    createdAt = date.today()
+    if request.method == 'POST':
+        try:
+            commentData = json.loads(request.body)
+            task = get_object_or_404(Task, id=id)
+            comment = Comment.objects.create(
+                content=commentData.get("content", ""),
+                createdAt=createdAt,
+                task=task
+            )
+            comment.save()
+            return JsonResponse({'message': 'comment add succesfully'}, status=201)
+        except json.JSONDecodeError:
+            return JsonResponse({'message':'error donnee json no valide'}, status=400)
+    else:
+        return JsonResponse({'message':'error method not allowed'}, status=405)
+

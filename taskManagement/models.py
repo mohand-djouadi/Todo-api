@@ -8,3 +8,8 @@ class Task(models.Model):
     done = models.BooleanField(default=False, blank=False, null=False)
     description = models.CharField(max_length=5000, blank=True, null=True)
     user = models.ForeignKey(settings.AUTH_USER_MODEL, null=True, on_delete=models.CASCADE)
+
+class Comment(models.Model):
+    content = models.CharField(max_length=1200, blank=False, null=False)
+    createdAt = models.DateTimeField(blank=False, null=False)
+    task = models.ForeignKey(Task, null=True, on_delete=models.CASCADE)
