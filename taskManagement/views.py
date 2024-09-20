@@ -15,7 +15,7 @@ def get_tasks(request):
     if request.method == 'GET':
         try:
             tasks = Task.objects.filter(user=request.user)
-            tasks_data = [{'id': task.id, 'title': task.title, 'location':task.location, 'description': task.description, 'done': task.done}
+            tasks_data = [{'id': task.id, 'title': task.title, 'location':task.location, 'description': task.description, 'status': task.status}
                           for task in tasks]
             return JsonResponse({'tasks':tasks_data}, status=200)
         except json.JSONDecodeError:
@@ -50,12 +50,8 @@ def edit_task(request,id):
     if request.method == 'PUT':
         try:
             taskToEdit = json.loads(request.body)
-            currentTask = get_object_or_404(Task, id=id)
-            currentTask.title = taskToEdit.get('title', currentTask.title)
-            currentTask.location = taskToEdit.get('location', currentTask.location)
-            currentTask.taskDate = taskToEdit.get('taskDate', currentTask.taskDate)
-            currentTask.done = taskToEdit.get('done', currentTask.done)
-            currentTask.description = taskToEdit.get('description', currentTask.description)
+            currentTask = Task.objects.get(id=id)
+            currentTask.update_fields(**taskToEdit)
             currentTask.save()
             updatedTask = model_to_dict(currentTask)
             return JsonResponse(updatedTask, status=201)
