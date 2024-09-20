@@ -1,3 +1,5 @@
+from django.forms import model_to_dict
+
 from taskManagement.models import Task
 from django.http import JsonResponse
 from django.contrib.auth.decorators import login_required
@@ -35,7 +37,8 @@ def add_task(request):
                 user= request.user
             )
             task.save()
-            return JsonResponse({'message':'task add succesfully'}, status=201)
+            task_dict = model_to_dict(task)
+            return JsonResponse(task_dict, status=201)
         except json.JSONDecodeError:
             return JsonResponse({'error':'Format de données JSON incorrect'},status=400)
     else:
@@ -54,7 +57,8 @@ def edit_task(request,id):
             currentTask.done = taskToEdit.get('done', currentTask.done)
             currentTask.description = taskToEdit.get('description', currentTask.description)
             currentTask.save()
-            return JsonResponse({'message':'task updated succesfully'}, status=201)
+            updatedTask = model_to_dict(currentTask)
+            return JsonResponse(updatedTask, status=201)
         except json.JSONDecodeError:
             return JsonResponse({'error':'donne JSON invalide'}, status=400)
     else:
@@ -75,6 +79,20 @@ def delete_task(request,id):
 
 @login_required
 @csrf_protect
+def get_comments(request, id):
+    if request.method == 'GET':
+        try:
+            comments = Comment.objects.filter(task=id)
+            comment_data = [ { 'id':comment.id, 'content':comment.content, 'createdAt':comment.createdAt } for comment in comments ]
+            return JsonResponse({'comments':comment_data}, status=200)
+        except json.JSONDecodeError:
+            return JsonResponse({'error':'donner JSON non valide'}, status=400)
+    else:
+        return JsonResponse({'error':'methodle HTTP non autorizer'}, status=405)
+
+
+@login_required
+@csrf_protect
 def addCommentToTask(request, id):
     createdAt = date.today()
     if request.method == 'POST':
@@ -87,7 +105,8 @@ def addCommentToTask(request, id):
                 task=task
             )
             comment.save()
-            return JsonResponse({'message': 'comment add succesfully'}, status=201)
+            comment_dict = model_to_dict(comment)
+            return JsonResponse(comment_dict, status=201)
         except json.JSONDecodeError:
             return JsonResponse({'message':'error donnee json no valide'}, status=400)
     else:

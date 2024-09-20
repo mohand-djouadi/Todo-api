@@ -13,5 +13,6 @@ urlpatterns = [
     path('task/add/', taskManagement.views.add_task, name='add-task'),
     path('task/edit/<int:id>', taskManagement.views.edit_task, name='edit-task'),
     path('task/delete/<int:id>', taskManagement.views.delete_task, name='delete-task'),
-    path('task/<int:id>/comment', taskManagement.views.addCommentToTask, name='add-comment')
+    path('task/<int:id>/comment', taskManagement.views.get_comments, name='get-comment'),
+    path('task/<int:id>/add-comment', taskManagement.views.addCommentToTask, name='add-comment')
 ]
