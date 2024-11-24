@@ -2,7 +2,8 @@ from django.db import models
 from django.conf import settings
 
 class Task(models.Model):
-
+    class Meta:
+        db_table = 'tasks'
     NOT_STARTED = 'NOT_STARTED'
     IN_PROGRESS = 'IN_PROGRESS'
     PENDING = 'PENDING'
@@ -42,6 +43,8 @@ class Task(models.Model):
         self.save()
 
 class Comment(models.Model):
+    class Meta:
+        db_table = 'comments'
     content = models.CharField(max_length=1200, blank=False, null=False)
     createdAt = models.DateTimeField(blank=False, null=False)
     task = models.ForeignKey(Task, null=True, on_delete=models.CASCADE)
