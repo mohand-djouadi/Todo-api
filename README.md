@@ -9,8 +9,7 @@ Un projet Django conçu pour la gestion des tâches. Ce projet utilise PostgreSQ
 - [x] Création, lecture, mise à jour et suppression (CRUD) des données.
 - [x] Authentification des utilisateurs (connexion et inscription).
 - [x] Gestion des relations entre les modèles (par exemple, utilisateurs, tâches).
-- [x] Migration automatique de SQLite vers PostgreSQL.
-- [x] Séparation des secrets avec un fichier `.env`.
+
 
 ---
 
