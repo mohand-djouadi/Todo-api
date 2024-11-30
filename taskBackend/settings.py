@@ -85,8 +85,7 @@ WSGI_APPLICATION = 'taskBackend.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default=config('DATABASE_URI'),
-        ssl_require=True
+        default=config('DATABASE_URI')
     )
 }
 
