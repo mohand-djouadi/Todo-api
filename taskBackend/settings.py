@@ -30,8 +30,13 @@ DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1','todo-api-eeh0.onrender.com']
 CSRF_TRUSTED_ORIGINS = ['http://todo-api-eeh0.onrender.com']
 
+CSRF_USE_SESSIONS = False  # Si vous n'utilisez pas de sessions pour stocker le token CSRF
+CSRF_COOKIE_SECURE = False  # S'assurer que cette option est configurée comme souhaité, surtout en développement
+CSRF_COOKIE_HTTPONLY = False
+
+
 CSRF_HEADER_NAME = 'HTTP_X_CSRFTOKEN'
-CSRF_COOKIE_NAME = None
+CSRF_COOKIE_NAME = 'csrftoken'
 
 
 # Application definition
