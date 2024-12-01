@@ -1,4 +1,5 @@
 import logging
+import sys
 from django.utils.deprecation import MiddlewareMixin
 
 class LogRequestMiddleware(MiddlewareMixin):
