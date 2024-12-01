@@ -20,6 +20,7 @@ def logIn(request):
             if user is not None:
                 login(request, user)
                 token = get_token(request)
+                print(f"Token CSRF généré: {token}")
                 user_data = {
                     'id': user.id,
                     'username': user.username,
@@ -58,6 +59,7 @@ def signUp(request):
             user.full_clean()
             user.save()
             token = get_token(request)
+            print(f"Token CSRF généré: {token}")
             login(request, user)
             userData = model_to_dict(User.objects.get(username=user.username))
             userData['token'] = token
