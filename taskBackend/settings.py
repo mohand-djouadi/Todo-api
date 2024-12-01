@@ -27,6 +27,8 @@ SECRET_KEY = 'django-insecure-n^^hvv^z=vj#1jz*+f38yy&khb8u-mnpkj%&0cc5*-irqqc55u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+ALLOWED_HOSTS = ['todo-api-eeh0.onrender.com']
+
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:4200',
     'https://todo-api-eeh0.onrender.com'
@@ -63,9 +65,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware'
 ]
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:4200'
-]
+
 
 ROOT_URLCONF = 'taskBackend.urls'
 
