@@ -27,17 +27,16 @@ SECRET_KEY = 'django-insecure-n^^hvv^z=vj#1jz*+f38yy&khb8u-mnpkj%&0cc5*-irqqc55u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','todo-api-eeh0.onrender.com']
-CSRF_TRUSTED_ORIGINS = ['http://todo-api-eeh0.onrender.com']
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:4200',
+    'https://todo-api-eeh0.onrender.com'
+]
 
-CSRF_USE_SESSIONS = False  # Si vous n'utilisez pas de sessions pour stocker le token CSRF
-CSRF_COOKIE_SECURE = False  # S'assurer que cette option est configurée comme souhaité, surtout en développement
-CSRF_COOKIE_HTTPONLY = False
+CSRF_TRUSTED_ORIGINS = ['https://todo-api-eeh0.onrender.com', 'http://todo-api-eeh0.onrender.com']
 
+CSRF_COOKIE_SECURE = True
 
 CSRF_HEADER_NAME = 'HTTP_X_CSRFTOKEN'
-CSRF_COOKIE_NAME = 'csrftoken'
-
 
 # Application definition
 
