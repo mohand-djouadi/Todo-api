@@ -36,10 +36,9 @@ CORS_ALLOWED_ORIGINS = [
 
 CSRF_TRUSTED_ORIGINS = ['https://todo-api-eeh0.onrender.com', 'http://todo-api-eeh0.onrender.com']
 
-CSRF_COOKIE_SECURE = True
-
 CSRF_HEADER_NAME = 'HTTP_X_CSRFTOKEN'
-
+CSRF_COOKIE_SECURE = True
+CSRF_COOKIE_HTTPONLY = False
 # Application definition
 
 INSTALLED_APPS = [

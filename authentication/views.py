@@ -28,7 +28,9 @@ def logIn(request):
                     'last_name': user.last_name,
                     'token': token
                 }
-                return JsonResponse(user_data, status=200)
+                response = JsonResponse(user_data, status=200)
+                response.set_cookie('csrftoken', token, httponly=True, secure=True)
+                return response
             else:
                 return JsonResponse({'error': 'Nom d\'utilisateur ou mot de passe incorrect'}, status=401)
         except json.JSONDecodeError:
@@ -59,7 +61,9 @@ def signUp(request):
             login(request, user)
             userData = model_to_dict(User.objects.get(username=user.username))
             userData['token'] = token
-            return JsonResponse(userData, status=201)
+            response = JsonResponse(userData, status=200)
+            response.set_cookie('csrftoken', token, httponly=True, secure=True)
+            return response
         except json.JSONDecodeError:
             return JsonResponse({'error': 'format de donnee invalid'}, status=400)
         except ValidationError as e:
