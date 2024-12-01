@@ -28,6 +28,7 @@ SECRET_KEY = 'django-insecure-n^^hvv^z=vj#1jz*+f38yy&khb8u-mnpkj%&0cc5*-irqqc55u
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','todo-api-eeh0.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['http://todo-api-eeh0.onrender.com']
 
 
 # Application definition
