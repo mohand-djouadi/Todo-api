@@ -30,9 +30,9 @@ DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1','todo-api-eeh0.onrender.com']
 CSRF_TRUSTED_ORIGINS = ['http://todo-api-eeh0.onrender.com']
 
-CSRF_COOKIE_HTTPONLY = False  # Assurez-vous que le cookie peut être lu par JavaScript si nécessaire
-CSRF_COOKIE_SECURE = True     # Activez-le si votre application utilise HTTPS
-CSRF_COOKIE_SAMESITE = 'Lax'  # Ou 'Strict' selon vos besoins
+CSRF_HEADER_NAME = 'HTTP_X_CSRFTOKEN'
+CSRF_COOKIE_NAME = None
+
 
 # Application definition
 
