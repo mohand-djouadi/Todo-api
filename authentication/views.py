@@ -90,6 +90,7 @@ def change_password(request):
         return JsonResponse({'eror':'methode HTTP non autoriser'}, status=405)
 
 @login_required
+@csrf_protect
 def logOut(request):
     logout(request)
     return JsonResponse({'message':'user logged out'}, status=200)
