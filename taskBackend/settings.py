@@ -14,15 +14,26 @@ from pathlib import Path
 
 from decouple import config
 import dj_database_url
-
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
-
-
+import os
+import environ
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+env = environ.Env(
+    DEBUG=(bool, False)
+)
+
+ENV = env('ENV', default='dev')
+env_file = os.path.join(BASE_DIR, f'.env.{ENV}')
+environ.Env.read_env(env_file)
+
+print(f"Running with environment: {ENV}")
+print(f"SECRET_KEY: {config('SECRET_KEY')}")
+print(f"DEBUG: {env('DEBUG')}")
+print(f"ALLOWED_HOSTS: {config('LOCAL_FRONT_HOST')}, {config('RENDER_HOST')}")
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config('SECRET_KEY')
@@ -103,13 +114,23 @@ WSGI_APPLICATION = 'taskBackend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-
-DATABASES = {
-    'default': dj_database_url.config(
-        default=config('DATABASE_URI')
-    )
-}
-
+if ENV == 'prod':
+    DATABASES = {
+        'default': dj_database_url.config(
+            default=config('DATABASE_URI')
+        )
+    }
+elif ENV == 'dev':
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': config('DB_NAME'),
+            'USER': config('DB_USER'),
+            'PASSWORD': config('DB_PASSWORD'),
+            'HOST': config('DB_HOST'),
+            'PORT': config('DB_PORT')
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
