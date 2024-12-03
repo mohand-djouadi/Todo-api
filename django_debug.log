@@ -1,0 +1,1283 @@
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\locale with glob **/*.mo.
+Watching dir C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\locale with glob **/*.mo.
+Watching dir C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\locale with glob **/*.mo.
+Watching dir C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\lib\site-packages\corsheaders\locale with glob **/*.mo.
+File C:\Program Files\Python37\Lib\_markupbase.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\log.py first seen with mtime 1714059937.9330983
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\whitenoise\media_types.py first seen with mtime 1733004489.8646107
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\asgiref\__init__.py first seen with mtime 1714059938.911982
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\utils.py first seen with mtime 1714059937.8923903
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\backends\base.py first seen with mtime 1714059937.3061516
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\pytz\lazy.py first seen with mtime 1714059938.2321754
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\images.py first seen with mtime 1714059937.7129579
+File C:\Program Files\Python37\Lib\os.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\unittest\__init__.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\constants.py first seen with mtime 1714059937.8070042
+File C:\Program Files\Python37\Lib\opcode.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\postgresql\creation.py first seen with mtime 1714059937.7819388
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\__init__.py first seen with mtime 1714059937.9130425
+File C:\Program Files\Python37\Lib\pkgutil.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\sql.py first seen with mtime 1714059938.74508
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\asgiref\sync.py first seen with mtime 1714059938.917514
+File C:\Program Files\Python37\Lib\ipaddress.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\manager.py first seen with mtime 1714059937.812393
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\urls.py first seen with mtime 1714059937.7089517
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\sql\__init__.py first seen with mtime 1714059937.828448
+File C:\Program Files\Python37\Lib\selectors.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\__init__.py first seen with mtime 1714059937.7033172
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\handlers.py first seen with mtime 1714059937.683208
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\dj_config_url.py first seen with mtime 1732489905.0505633
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\autoreload.py first seen with mtime 1714059937.8842494
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\tree.py first seen with mtime 1714059937.9390466
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\corsheaders\apps.py first seen with mtime 1726998292.5232632
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\migration.py first seen with mtime 1714059937.7953973
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\forms.py first seen with mtime 1714059936.3588758
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\uploadedfile.py first seen with mtime 1714059937.7158835
+File C:\Program Files\Python37\Lib\glob.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\move.py first seen with mtime 1714059937.7148216
+File C:\Program Files\Python37\Lib\_collections_abc.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\loader_tags.py first seen with mtime 1714059937.8901882
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\cache.py first seen with mtime 1714059937.917249
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\__init__.py first seen with mtime 1714059936.3565128
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\messages\__init__.py first seen with mtime 1714059936.9962628
+File C:\Program Files\Python37\Lib\email\mime\nonmultipart.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\security\__init__.py first seen with mtime 1714059937.7099497
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskBackend\__init__.py first seen with mtime 1714060038.029362
+File C:\Program Files\Python37\Lib\email\feedparser.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\operations\__init__.py first seen with mtime 1714059937.8010108
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\shortcuts.py first seen with mtime 1714059935.5533414
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\filters.py first seen with mtime 1714059935.7419143
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\checks.py first seen with mtime 1714059936.1770065
+File C:\Program Files\Python37\Lib\unittest\suite.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\dates.py first seen with mtime 1714059937.921077
+File C:\Program Files\Python37\Lib\logging\__init__.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\generic\dates.py first seen with mtime 1714059937.9553206
+File C:\Program Files\Python37\Lib\uuid.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\caches.py first seen with mtime 1714059937.7042632
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\security\sessions.py first seen with mtime 1714059937.710947
+File C:\Program Files\Python37\Lib\sre_compile.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\email\mime\message.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\filters\output.py first seen with mtime 1714059938.7512817
+File C:\Program Files\Python37\Lib\tokenize.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\deletion.py first seen with mtime 1714059937.8085485
+File C:\Program Files\Python37\Lib\urllib\parse.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\servers\__init__.py first seen with mtime 1714059937.7529123
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\templatetags\tz.py first seen with mtime 1714059937.9030576
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\keywords.py first seen with mtime 1714059938.7434247
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\termcolors.py first seen with mtime 1714059937.936054
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\json.py first seen with mtime 1714059937.8179028
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\filters\__init__.py first seen with mtime 1714059938.750284
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\sql\datastructures.py first seen with mtime 1714059937.8304043
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sites\shortcuts.py first seen with mtime 1714059937.4808204
+File C:\Program Files\Python37\Lib\pathlib.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\actions.py first seen with mtime 1714059935.7388122
+File C:\Program Files\Python37\Lib\copyreg.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\json\__init__.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\nturl2path.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\email\quoprimime.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\http\__init__.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\tokens.py first seen with mtime 1714059938.7463863
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\__init__.py first seen with mtime 1714059937.7119448
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\__init__.py first seen with mtime 1732461484.5454037
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\decorators.py first seen with mtime 1714059935.7409165
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\extensions.py first seen with mtime 1732461484.5949266
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\loaders\app_directories.py first seen with mtime 1714059937.896392
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\engine\filter_stack.py first seen with mtime 1714059938.7477078
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\models.py first seen with mtime 1714059937.3045533
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\apps.py first seen with mtime 1714059937.3013644
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\admin.py first seen with mtime 1714060143.790253
+File C:\Program Files\Python37\Lib\sre_constants.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\context.py first seen with mtime 1714059937.8848152
+File C:\Program Files\Python37\Lib\email\header.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\extras.py first seen with mtime 1732461484.595923
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\_os.py first seen with mtime 1714059937.9130425
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\models.py first seen with mtime 1714059937.8390622
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\templatetags\cache.py first seen with mtime 1714059937.8998742
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\translation\__init__.py first seen with mtime 1714059937.941041
+File C:\Program Files\Python37\Lib\wsgiref\headers.py first seen with mtime 1583829544.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\management\commands\__init__.py first seen with mtime 1714059937.7314382
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\decouple.py first seen with mtime 1732485249.2729645
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\templatetags\i18n.py first seen with mtime 1714059937.9010282
+File C:\Program Files\Python37\Lib\wsgiref\__init__.py first seen with mtime 1583829544.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\smartif.py first seen with mtime 1714059937.8912494
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\itercompat.py first seen with mtime 1714059937.931883
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\corsheaders\__init__.py first seen with mtime 1726998292.5169683
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\formats.py first seen with mtime 1714059937.9269717
+File C:\Program Files\Python37\Lib\html\__init__.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\errorcodes.py first seen with mtime 1732461484.592973
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\errors.py first seen with mtime 1732461484.59397
+File C:\Program Files\Python37\Lib\asyncio\transports.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\reprlib.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\asgiref\local.py first seen with mtime 1714059938.915486
+File C:\Program Files\Python37\Lib\html\entities.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\_json.py first seen with mtime 1732461484.549852
+File C:\Program Files\Python37\Lib\unittest\case.py first seen with mtime 1583829548.0
+File C:\Program Files\Python37\Lib\unittest\loader.py first seen with mtime 1583829544.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\urls\base.py first seen with mtime 1714059937.9099898
+File C:\Program Files\Python37\Lib\argparse.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\__init__.py first seen with mtime 1714059935.7388122
+File C:\Program Files\Python37\Lib\stat.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\pytz\tzfile.py first seen with mtime 1714059938.23421
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\templatetags\base.py first seen with mtime 1714059936.043754
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\query.py first seen with mtime 1714059937.813413
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\middleware\cache.py first seen with mtime 1714059937.878272
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\files.py first seen with mtime 1714059937.8179028
+File C:\Program Files\Python37\DLLs\_queue.pyd first seen with mtime 1583833328.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\formsets.py first seen with mtime 1714059937.8380225
+File C:\Program Files\Python37\Lib\queue.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\options.py first seen with mtime 1714059935.7436883
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\cache\utils.py first seen with mtime 1714059937.6987317
+File C:\Program Files\Python37\Lib\json\encoder.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\struct.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\email\_header_value_parser.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\asyncio\windows_utils.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\base_user.py first seen with mtime 1714059936.1760037
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\exceptions.py first seen with mtime 1714059935.7409165
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py first seen with mtime 1714059936.041649
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\serializers\base.py first seen with mtime 1714059937.7494764
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\templatetags\__init__.py first seen with mtime 1714059937.8998742
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\operations\models.py first seen with mtime 1714059937.8020086
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\widgets.py first seen with mtime 1714059935.745342
+File C:\Program Files\Python37\Lib\urllib\request.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\__init__.py first seen with mtime 1714059937.692816
+File C:\Program Files\Python37\Lib\socketserver.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\codecs.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\__init__.py first seen with mtime 1714059937.79186
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\models.py first seen with mtime 1732481525.230586
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\safestring.py first seen with mtime 1714059937.9352703
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\whitenoise\__init__.py first seen with mtime 1733004489.8606198
+File C:\Program Files\Python37\Lib\encodings\__init__.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\genericpath.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\difflib.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\backends.py first seen with mtime 1714059936.1760037
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\translation.py first seen with mtime 1714059937.7085447
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\cache\backends\locmem.py first seen with mtime 1714059937.7023227
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\sites.py first seen with mtime 1714059935.7442858
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\management\__init__.py first seen with mtime 1714059937.6869957
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\forms.py first seen with mtime 1714059937.8380225
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\cli.py first seen with mtime 1714059938.7420385
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\loader.py first seen with mtime 1714059937.8901882
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\dateparse.py first seen with mtime 1714059937.921077
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\templatetags\admin_urls.py first seen with mtime 1714059936.0427136
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\__init__.py first seen with mtime 1714059937.8353286
+File C:\Program Files\Python37\Lib\email\errors.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\_ipaddress.py first seen with mtime 1732461484.5473986
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\utils.py first seen with mtime 1714059935.745342
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\operations\utils.py first seen with mtime 1714059937.8040042
+File C:\Program Files\Python37\Lib\pickle.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\concurrent\futures\thread.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\_compat_pickle.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\templatetags\log.py first seen with mtime 1714059936.043754
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\signals.py first seen with mtime 1714059937.6954823
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\__init__.py first seen with mtime 1714059935.5520742
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\cache\__init__.py first seen with mtime 1714059937.6977339
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\wsgi.py first seen with mtime 1714059937.6966848
+File C:\Program Files\Python37\Lib\mimetypes.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\concurrent\futures\_base.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\postgresql\base.py first seen with mtime 1714059937.7809412
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\options.py first seen with mtime 1714059937.812393
+File C:\Program Files\Python37\Lib\calendar.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\http\request.py first seen with mtime 1714059937.8771176
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\decorators\common.py first seen with mtime 1714059937.950154
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\filters\others.py first seen with mtime 1714059938.7512817
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\regex_helper.py first seen with mtime 1714059937.9352703
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\signals.py first seen with mtime 1714059936.181574
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\query_utils.py first seen with mtime 1714059937.81477
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\__init__.py first seen with mtime 1714059937.7580056
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\middleware\security.py first seen with mtime 1714059937.8831642
+File C:\Program Files\Python37\Lib\unittest\signals.py first seen with mtime 1583829544.0
+File C:\Program Files\Python37\Lib\asyncio\subprocess.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\collections\__init__.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\utils.py first seen with mtime 1714059937.7580056
+File C:\Program Files\Python37\Lib\dis.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\ctypes\__init__.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\utils.py first seen with mtime 1714059937.717446
+File C:\Program Files\Python37\Lib\quopri.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\views\autocomplete.py first seen with mtime 1714059936.0447524
+File C:\Program Files\Python37\Lib\encodings\utf_8.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\email\_encoded_words.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\apps\registry.py first seen with mtime 1714059935.554421
+File C:\Program Files\Python37\Lib\asyncio\log.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\functions\__init__.py first seen with mtime 1714059937.8235383
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\templatetags\static.py first seen with mtime 1714059937.9020336
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\conf\locale\__init__.py first seen with mtime 1714059935.5633793
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\security\csrf.py first seen with mtime 1714059937.710947
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sites\__init__.py first seen with mtime 1714059937.4745257
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\urls\converters.py first seen with mtime 1714059937.910987
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\templatetags\l10n.py first seen with mtime 1714059937.9010282
+File C:\Program Files\Python37\Lib\encodings\cp1252.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\wsgiref\simple_server.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskBackend\urls.py first seen with mtime 1726841307.8719275
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\http\response.py first seen with mtime 1714059937.8771176
+File C:\Program Files\Python37\Lib\email\utils.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\datetime.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\whitenoise\responders.py first seen with mtime 1733004489.8666036
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\baseconv.py first seen with mtime 1714059937.916251
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\pytz\tzinfo.py first seen with mtime 1714059938.23421
+File C:\Program Files\Python37\Lib\concurrent\futures\__init__.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\dispatch\dispatcher.py first seen with mtime 1714059937.8343315
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\functions\math.py first seen with mtime 1714059937.825633
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\utils.py first seen with mtime 1714059937.7996063
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\management\commands\runserver.py first seen with mtime 1714059937.740831
+File C:\Program Files\Python37\Lib\wsgiref\handlers.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\features.py first seen with mtime 1714059937.7608087
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\indexes.py first seen with mtime 1714059937.810919
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\utils.py first seen with mtime 1714059937.685998
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\templates.py first seen with mtime 1714059937.7075474
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\serializers\__init__.py first seen with mtime 1714059937.7484784
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\sql\subqueries.py first seen with mtime 1714059937.8329535
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\generic\detail.py first seen with mtime 1714059937.9562857
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\__init__.py first seen with mtime 1714059936.174969
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\engine.py first seen with mtime 1714059937.8876643
+File C:\Program Files\Python37\DLLs\_ssl.pyd first seen with mtime 1583833348.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\views\__init__.py first seen with mtime 1714059936.043754
+File C:\Program Files\Python37\DLLs\_hashlib.pyd first seen with mtime 1583833334.0
+File C:\Program Files\Python37\DLLs\unicodedata.pyd first seen with mtime 1583833332.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\related_descriptors.py first seen with mtime 1714059937.8215442
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\mixins.py first seen with mtime 1714059937.8189
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\sql\query.py first seen with mtime 1714059937.8316681
+File C:\Program Files\Python37\Lib\operator.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\functions\window.py first seen with mtime 1714059937.8276284
+File C:\Program Files\Python37\Lib\numbers.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\filters\aligned_indent.py first seen with mtime 1714059938.750284
+File C:\Program Files\Python37\Lib\importlib\abc.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\filters\right_margin.py first seen with mtime 1714059938.75356
+File C:\Program Files\Python37\Lib\asyncio\base_events.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\asyncio.py first seen with mtime 1714059937.9151597
+File C:\Program Files\Python37\Lib\getpass.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\functools.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\logging\handlers.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\asyncio\events.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\security\base.py first seen with mtime 1714059937.710947
+File C:\Program Files\Python37\Lib\enum.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\middleware.py first seen with mtime 1714059936.1799295
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\__init__.py first seen with mtime 1714059937.8832524
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\admin.py first seen with mtime 1714059936.174969
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\utils.py first seen with mtime 1714059937.8409176
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\debug.py first seen with mtime 1714059937.9464583
+File C:\Program Files\Python37\Lib\urllib\__init__.py first seen with mtime 1583829544.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\html.py first seen with mtime 1714059937.9293447
+File C:\Program Files\Python37\Lib\cgi.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\apps\config.py first seen with mtime 1714059935.554421
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\timezone.py first seen with mtime 1714059937.93805
+File C:\Program Files\Python37\Lib\sre_parse.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\base.py first seen with mtime 1714059937.8060327
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\management\__init__.py first seen with mtime 1714059936.4639237
+File C:\Program Files\Python37\Lib\email\_parseaddr.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\importlib\__init__.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\exceptions.py first seen with mtime 1714059937.6942303
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\management\__init__.py first seen with mtime 1714059937.7279017
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\backends\__init__.py first seen with mtime 1714059937.8923903
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\widgets.py first seen with mtime 1714059937.84195
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\decorators\cache.py first seen with mtime 1714059937.9487538
+File C:\Program Files\Python37\Lib\email\generator.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\re.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\http\client.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\constraints.py first seen with mtime 1714059937.8075297
+File C:\Program Files\Python37\Lib\_weakrefset.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\datastructures.py first seen with mtime 1714059937.9190848
+File C:\Program Files\Python37\Lib\uu.py first seen with mtime 1583829544.0
+File C:\Program Files\Python37\DLLs\_overlapped.pyd first seen with mtime 1583833328.0
+File C:\Program Files\Python37\Lib\asyncio\selector_events.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\json\scanner.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\loaders\filesystem.py first seen with mtime 1714059937.898734
+File C:\Program Files\Python37\Lib\asyncio\base_futures.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\importlib\machinery.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\defaultfilters.py first seen with mtime 1714059937.8862944
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\base.py first seen with mtime 1714059937.7129579
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\__init__.py first seen with mtime 1714060143.7946258
+File C:\Program Files\Python37\Lib\contextlib.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\module_loading.py first seen with mtime 1714059937.9340968
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\ddl_references.py first seen with mtime 1714059937.7559125
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\decorators.py first seen with mtime 1714059937.923599
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\library.py first seen with mtime 1714059937.889009
+File C:\Program Files\Python37\Lib\hmac.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\subprocess.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\token.py first seen with mtime 1583829548.0
+File C:\Program Files\Python37\Lib\urllib\response.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\loaders\__init__.py first seen with mtime 1714059937.896392
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\generic\base.py first seen with mtime 1714059937.9542909
+File C:\Program Files\Python37\Lib\copy.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\DLLs\_bz2.pyd first seen with mtime 1583833336.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\uploadhandler.py first seen with mtime 1714059937.717446
+File C:\Program Files\Python37\Lib\fnmatch.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\inspect.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\mail\message.py first seen with mtime 1714059937.7217057
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\functional.py first seen with mtime 1714059937.928345
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\signing.py first seen with mtime 1714059937.6954823
+File C:\Program Files\Python37\Lib\_sitebuiltins.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\__init__.py first seen with mtime 1714059935.7388122
+File C:\Program Files\Python37\DLLs\_decimal.pyd first seen with mtime 1583833324.0
+File C:\Program Files\Python37\Lib\asyncio\constants.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\models.py first seen with mtime 1714059935.7426903
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\servers\basehttp.py first seen with mtime 1714059937.7529123
+File C:\Program Files\Python37\Lib\decimal.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\operations.py first seen with mtime 1714059937.7621524
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\messages.py first seen with mtime 1714059937.7054017
+File C:\Program Files\Python37\Lib\keyword.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\management\color.py first seen with mtime 1714059937.7288992
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\__init__.py first seen with mtime 1714059938.7406788
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\pytz\__init__.py first seen with mtime 1714059938.230142
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\decorators\csrf.py first seen with mtime 1714059937.951152
+File C:\Program Files\Python37\Lib\asyncio\sslproto.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\signal.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\urls\resolvers.py first seen with mtime 1714059937.9119852
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\ipv6.py first seen with mtime 1714059937.9306798
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\introspection.py first seen with mtime 1714059937.7621524
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\translation\trans_real.py first seen with mtime 1714059937.9441857
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\models.py first seen with mtime 1714059936.3589518
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\conf\__init__.py first seen with mtime 1714059935.5600193
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\admin.py first seen with mtime 1714060130.8161316
+File C:\Program Files\Python37\Lib\contextvars.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\mail\__init__.py first seen with mtime 1714059937.7217057
+File C:\Program Files\Python37\Lib\encodings\aliases.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\DLLs\select.pyd first seen with mtime 1583833328.0
+File C:\Program Files\Python37\Lib\asyncio\proactor_events.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\shlex.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\email\_policybase.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\whitenoise\string_utils.py first seen with mtime 1733004489.868598
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\views.py first seen with mtime 1733074263.5778215
+File C:\Program Files\Python37\Lib\random.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\email\charset.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\reverse_related.py first seen with mtime 1714059937.8225412
+File C:\Program Files\Python37\Lib\bz2.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\base.py first seen with mtime 1714059937.8848152
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\utils.py first seen with mtime 1714059937.815767
+File C:\Program Files\Python37\Lib\hashlib.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\fields.py first seen with mtime 1714059937.8368597
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\views.py first seen with mtime 1714059937.6869957
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\manage.py first seen with mtime 1714060038.0076435
+File C:\Program Files\Python37\Lib\shutil.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\typing_extensions.py first seen with mtime 1714059939.0777128
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\aggregates.py first seen with mtime 1714059937.8050008
+File C:\Program Files\Python37\Lib\ntpath.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\asyncio\tasks.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\http\server.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\whitenoise\base.py first seen with mtime 1733004489.8616197
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\postgresql\schema.py first seen with mtime 1714059937.784789
+File C:\Program Files\Python37\Lib\asyncio\format_helpers.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\DLLs\_lzma.pyd first seen with mtime 1583833350.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\utils.py first seen with mtime 1714059937.7559125
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\client.py first seen with mtime 1714059937.7597759
+File C:\Program Files\Python37\Lib\email\message.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\ctypes\_endian.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\ssl.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\encoding.py first seen with mtime 1714059937.9256575
+File C:\Program Files\Python37\Lib\lzma.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\DLLs\_asyncio.pyd first seen with mtime 1583833326.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\sql\constants.py first seen with mtime 1714059937.8294868
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\handlers\base.py first seen with mtime 1714059937.7195134
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\database.py first seen with mtime 1714059937.7054017
+File C:\Program Files\Python37\Lib\types.py first seen with mtime 1583829548.0
+File C:\Program Files\Python37\DLLs\_socket.pyd first seen with mtime 1583833334.0
+File C:\Program Files\Python37\Lib\email\__init__.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\generic\list.py first seen with mtime 1714059937.9569373
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\__init__.py first seen with mtime 1714059937.8169057
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\renderers.py first seen with mtime 1714059937.840052
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\dj_database_url.py first seen with mtime 1732489905.0491867
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\defaulttags.py first seen with mtime 1714059937.8876643
+File C:\Program Files\Python37\Lib\html\parser.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\heapq.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\linecache.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\autoreload.py first seen with mtime 1714059937.916251
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\__init__.py first seen with mtime 1714059937.8050008
+File C:\Program Files\Python37\Lib\base64.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\__init__.py first seen with mtime 1714060130.8202486
+File C:\Program Files\Python37\Lib\weakref.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\connection.py first seen with mtime 1714059937.9182463
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\temp.py first seen with mtime 1714059937.7158835
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\serializers\json.py first seen with mtime 1714059937.7496111
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\mail\utils.py first seen with mtime 1714059937.723078
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\messages\constants.py first seen with mtime 1714059936.9981031
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\postgresql\__init__.py first seen with mtime 1714059937.7800922
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\utils.py first seen with mtime 1714059938.7463863
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\models.py first seen with mtime 1714059936.1809275
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\__init__.py first seen with mtime 1714059937.6809084
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\middleware\__init__.py first seen with mtime 1714059937.8771176
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\postgresql\features.py first seen with mtime 1714059937.7827935
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\operations\fields.py first seen with mtime 1714059937.8020086
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\conf\global_settings.py first seen with mtime 1714059935.5600193
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\backends\__init__.py first seen with mtime 1714059937.3051546
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\timesince.py first seen with mtime 1714059937.9370527
+File C:\Program Files\Python37\Lib\asyncio\streams.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\concurrent\__init__.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\transaction.py first seen with mtime 1714059937.754907
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\loaders\cached.py first seen with mtime 1714059937.897507
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\response.py first seen with mtime 1714059937.8912494
+File C:\Program Files\Python37\Lib\email\headerregistry.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\tempfile.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\urls\utils.py first seen with mtime 1714059937.9130425
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\dispatch\__init__.py first seen with mtime 1714059937.8343315
+File C:\Program Files\Python37\Lib\posixpath.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\email\iterators.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\async_checks.py first seen with mtime 1714059937.7042632
+File C:\Program Files\Python37\Lib\wsgiref\util.py first seen with mtime 1583829548.0
+File C:\Program Files\Python37\Lib\configparser.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\backends\django.py first seen with mtime 1714059937.8933983
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\base_session.py first seen with mtime 1714059937.302559
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\__init__.py first seen with mtime 1714059937.7559125
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\helpers.py first seen with mtime 1714059935.7426903
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\deprecation.py first seen with mtime 1714059937.923599
+File C:\Program Files\Python37\Lib\asyncio\runners.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\gzip.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\models.py first seen with mtime 1733008227.5803103
+File C:\Program Files\Python37\Lib\abc.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\io.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\pytz\exceptions.py first seen with mtime 1714059938.2311394
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\state.py first seen with mtime 1714059937.7984173
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\lorem_ipsum.py first seen with mtime 1714059937.9330983
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\urls\conf.py first seen with mtime 1714059937.9099898
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\apps.py first seen with mtime 1714060143.7926297
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\paginator.py first seen with mtime 1714059937.6942303
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\exceptions.py first seen with mtime 1714059938.7420385
+File C:\Program Files\Python37\Lib\typing.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\http\multipartparser.py first seen with mtime 1714059937.8761199
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\signals.py first seen with mtime 1714059937.81477
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\http.py first seen with mtime 1714059937.9295664
+File C:\Program Files\Python37\Lib\email\contentmanager.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\unittest\util.py first seen with mtime 1583829544.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\functions\datetime.py first seen with mtime 1714059937.8246355
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\text.py first seen with mtime 1714059937.9370527
+File C:\Program Files\Python37\Lib\email\policy.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\apps.py first seen with mtime 1714059936.1760037
+File C:\Program Files\Python37\Lib\platform.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\_psycopg.cp37-win_amd64.pyd first seen with mtime 1732461484.5758362
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskBackend\settings.py first seen with mtime 1733258275.123587
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\csrf.py first seen with mtime 1714059937.9454606
+File C:\Program Files\Python37\Lib\email\base64mime.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\email\mime\text.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\enums.py first seen with mtime 1714059937.8095243
+File C:\Program Files\Python37\Lib\string.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\messages\apps.py first seen with mtime 1714059936.9972608
+File C:\Program Files\Python37\Lib\json\decoder.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\collections\abc.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\ctypes\wintypes.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\corsheaders\defaults.py first seen with mtime 1726998292.530483
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\related_lookups.py first seen with mtime 1714059937.8225412
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\exceptions.py first seen with mtime 1714059937.889009
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\expressions.py first seen with mtime 1714059937.8095243
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\deconstruct.py first seen with mtime 1714059937.9224105
+File C:\Program Files\Python37\Lib\unittest\main.py first seen with mtime 1583829544.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\decorators.py first seen with mtime 1714059936.1790016
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\postgresql\operations.py first seen with mtime 1714059937.784789
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\password_validation.py first seen with mtime 1714059936.181574
+File C:\Program Files\Python37\Lib\email\mime\base.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\creation.py first seen with mtime 1714059937.7597759
+File C:\Program Files\Python37\Lib\locale.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\filters\tokens.py first seen with mtime 1714059938.75356
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\messages\storage\__init__.py first seen with mtime 1714059937.0010965
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\proxy.py first seen with mtime 1714059937.8193755
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\urls\__init__.py first seen with mtime 1714059937.9085677
+File C:\Program Files\Python37\Lib\secrets.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\model_checks.py first seen with mtime 1714059937.7065237
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\static.py first seen with mtime 1714059937.9476137
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\exceptions.py first seen with mtime 1714059937.7928567
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\signals.py first seen with mtime 1714059937.7570086
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\engine\grouping.py first seen with mtime 1714059938.7491217
+File C:\Program Files\Python37\Lib\asyncio\base_subprocess.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\corsheaders\conf.py first seen with mtime 1726998292.5283349
+File C:\Program Files\Python37\Lib\email\encoders.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\cache\backends\filebased.py first seen with mtime 1714059937.701323
+File C:\Program Files\Python37\Lib\traceback.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\checks.py first seen with mtime 1714059935.7398243
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\dateformat.py first seen with mtime 1714059937.9200828
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\numberformat.py first seen with mtime 1714059937.9342718
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\handlers\wsgi.py first seen with mtime 1714059937.7207081
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\messages\api.py first seen with mtime 1714059936.9962628
+File C:\Program Files\Python37\Lib\asyncio\windows_events.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\corsheaders\checks.py first seen with mtime 1726998292.5263598
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\fields.py first seen with mtime 1714059936.3578782
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\http\__init__.py first seen with mtime 1714059937.8741734
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\finders.py first seen with mtime 1714059937.683208
+File C:\Program Files\Python37\Lib\unittest\result.py first seen with mtime 1583829548.0
+File C:\Program Files\Python37\Lib\email\mime\multipart.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\views.py first seen with mtime 1726853586.7236843
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\checks.py first seen with mtime 1714059937.682199
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\engine\__init__.py first seen with mtime 1714059938.7477078
+File C:\Program Files\Python37\Lib\asyncio\coroutines.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\storage.py first seen with mtime 1714059937.7148216
+File C:\Program Files\Python37\Lib\asyncio\locks.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\boundfield.py first seen with mtime 1714059937.8363278
+File C:\Program Files\Python37\Lib\_compression.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\loaders\base.py first seen with mtime 1714059937.897507
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\generic\__init__.py first seen with mtime 1714059937.9536448
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\urls\exceptions.py first seen with mtime 1714059937.910987
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\management\commands\runserver.py first seen with mtime 1714059937.689953
+File C:\Program Files\Python37\Lib\asyncio\base_tasks.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\filters\reindent.py first seen with mtime 1714059938.7525618
+File C:\Program Files\Python37\Lib\site.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\email\parser.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\urllib\error.py first seen with mtime 1583829544.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\hashers.py first seen with mtime 1714059936.1799295
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\handlers\asgi.py first seen with mtime 1714059937.7184858
+File C:\Program Files\Python37\Lib\http\cookies.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\decorators\debug.py first seen with mtime 1714059937.951152
+File C:\Program Files\Python37\Lib\encodings\latin_1.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\asyncio\protocols.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\lookups.py first seen with mtime 1714059937.810919
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\http\cookie.py first seen with mtime 1714059937.8751707
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\validators.py first seen with mtime 1714059937.6966848
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\templatetags\__init__.py first seen with mtime 1714059936.041649
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\hashable.py first seen with mtime 1714059937.928345
+File C:\Program Files\Python37\Lib\unittest\runner.py first seen with mtime 1583829544.0
+File C:\Program Files\Python37\Lib\threading.py first seen with mtime 1583829548.0
+File C:\Program Files\Python37\Lib\bisect.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\handlers\__init__.py first seen with mtime 1714059937.7184858
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\storage.py first seen with mtime 1714059937.6846051
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\postgresql\introspection.py first seen with mtime 1714059937.7837932
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\sql\where.py first seen with mtime 1714059937.8329535
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\management\base.py first seen with mtime 1714059937.7279017
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\backends\base.py first seen with mtime 1714059937.8933983
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\lexer.py first seen with mtime 1714059938.74508
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\_range.py first seen with mtime 1732461484.5909796
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\apps.py first seen with mtime 1714059936.3565128
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\datetime_safe.py first seen with mtime 1714059937.9224105
+File C:\Program Files\Python37\Lib\asyncio\__init__.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\topological_sort.py first seen with mtime 1714059937.9390466
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\formatter.py first seen with mtime 1714059938.7434247
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\functions\text.py first seen with mtime 1714059937.82663
+File C:\Program Files\Python37\Lib\__future__.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\forms.py first seen with mtime 1714059936.1790016
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\handlers\exception.py first seen with mtime 1714059937.7204926
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\serializers\python.py first seen with mtime 1714059937.7506948
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\crypto.py first seen with mtime 1714059937.9182463
+File C:\Program Files\Python37\DLLs\_ctypes.pyd first seen with mtime 1583833326.0
+File C:\Program Files\Python37\Lib\importlib\util.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\registry.py first seen with mtime 1714059937.7075474
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\postgresql\client.py first seen with mtime 1714059937.7819388
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\decorators\__init__.py first seen with mtime 1714059937.9487538
+File C:\Program Files\Python37\Lib\_bootlocale.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\version.py first seen with mtime 1714059937.9400434
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\apps.py first seen with mtime 1714059935.7398243
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\management\commands\__init__.py first seen with mtime 1714059937.6879945
+File C:\Program Files\Python37\Lib\logging\config.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\functions\comparison.py first seen with mtime 1714059937.8245356
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\checks.py first seen with mtime 1714059936.3578782
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\functions\mixins.py first seen with mtime 1714059937.82663
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\templatetags\admin_modify.py first seen with mtime 1714059936.0427136
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\base.py first seen with mtime 1714059937.7587788
+File C:\Program Files\Python37\Lib\asyncio\queues.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\__init__.py first seen with mtime 1714059937.9441857
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\management\__init__.py first seen with mtime 1714059936.3468182
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\duration.py first seen with mtime 1714059937.924659
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\schema.py first seen with mtime 1714059937.7637568
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\middleware.py first seen with mtime 1714059937.3035562
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\inspect.py first seen with mtime 1714059937.9306798
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\operations\special.py first seen with mtime 1714059937.8030057
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\related.py first seen with mtime 1714059937.8205464
+File C:\Program Files\Python37\Lib\socket.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\__init__.py first seen with mtime 1714059937.3013644
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\cache\backends\base.py first seen with mtime 1714059937.6988072
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\middleware\csrf.py first seen with mtime 1714059937.880267
+File C:\Program Files\Python37\Lib\gettext.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\validation.py first seen with mtime 1714059937.7637568
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\views\main.py first seen with mtime 1714059936.04584
+File C:\Program Files\Python37\Lib\pprint.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\tokens.py first seen with mtime 1714059936.1825716
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\locks.py first seen with mtime 1714059937.7138245
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\admin.py first seen with mtime 1714059936.3565128
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\validators.py first seen with mtime 1714059936.1832542
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\cache\backends\__init__.py first seen with mtime 1714059937.6988072
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\engine\statement_splitter.py first seen with mtime 1714059938.7491217
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\asgiref\current_thread_executor.py first seen with mtime 1714059938.9134877
+File C:\Program Files\Python37\Lib\warnings.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\whitenoise\middleware.py first seen with mtime 1733004489.8656094
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\translation\reloader.py first seen with mtime 1714059937.9420378
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\generic\edit.py first seen with mtime 1714059937.9562857
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\i18n.py first seen with mtime 1714059937.947492
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\apps\__init__.py first seen with mtime 1714059935.5533414
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\operations\base.py first seen with mtime 1714059937.8010108
+File C:\Program Files\Python37\Lib\asyncio\futures.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\apps.py first seen with mtime 1714059937.682199
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\__init__.py first seen with mtime 1714059937.75391
+File C:\Program Files\Python37\Lib\email\mime\__init__.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\apps.py first seen with mtime 1714060130.8182528
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\middleware\common.py first seen with mtime 1714059937.8792696
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\graph.py first seen with mtime 1714059937.793855
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\migrations\0003_task_user.py first seen with mtime 1714149567.303174
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0012_alter_user_first_name_max_length.py first seen with mtime 1714059936.3543527
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0003_alter_user_email_max_length.py first seen with mtime 1714059936.3500154
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\migrations\0002_logentry_remove_auto_add.py first seen with mtime 1714059935.9495885
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\migrations\0003_logentry_add_action_flag_choices.py first seen with mtime 1714059935.950631
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\migrations\__init__.py first seen with mtime 1714059937.4691632
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\migrations\0002_alter_user_password.py first seen with mtime 1714150901.2820754
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\migrations\0003_auto_20241124_2152.py first seen with mtime 1732481541.3902867
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0011_update_proxy_permissions.py first seen with mtime 1714059936.3533545
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\migrations\0004_comment.py first seen with mtime 1726363395.748989
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\migrations\0001_initial.py first seen with mtime 1714059935.9495885
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\migrations\0001_initial.py first seen with mtime 1714059936.464965
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0008_alter_user_username_max_length.py first seen with mtime 1714059936.3523571
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\migrations\__init__.py first seen with mtime 1714082631.0542893
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0007_alter_validators_add_error_messages.py first seen with mtime 1714059936.3519633
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\executor.py first seen with mtime 1714059937.793855
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0004_alter_user_username_opts.py first seen with mtime 1714059936.3500154
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\messages\middleware.py first seen with mtime 1714059936.9991014
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0002_alter_permission_name_max_length.py first seen with mtime 1714059936.3489704
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0005_alter_user_last_login_null.py first seen with mtime 1714059936.3509648
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\migrations\__init__.py first seen with mtime 1714059935.950631
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\migrations\0001_initial.py first seen with mtime 1714129948.1095245
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\migrations\0004_auto_20241126_1556.py first seen with mtime 1732632964.6602273
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0009_alter_user_last_name_max_length.py first seen with mtime 1714059936.3523571
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\exceptions.py first seen with mtime 1714059937.302559
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\migrations\0001_initial.py first seen with mtime 1714082717.8605838
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\migrations\0002_remove_content_type_name.py first seen with mtime 1714059936.464965
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0001_initial.py first seen with mtime 1714059936.3489704
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\migrations\0002_alter_task_taskdate.py first seen with mtime 1714148548.9136388
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\migrations\__init__.py first seen with mtime 1714082620.9180584
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\recorder.py first seen with mtime 1714059937.7972252
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\migrations\0006_auto_20241124_2152.py first seen with mtime 1732481541.3925476
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\__init__.py first seen with mtime 1714059936.35446
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0010_alter_group_name_max_length.py first seen with mtime 1714059936.3533545
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\defaults.py first seen with mtime 1714059937.9464583
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\migrations\0001_initial.py first seen with mtime 1714059937.468166
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\conf\urls\__init__.py first seen with mtime 1714059935.7377377
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0006_require_contenttypes_0002.py first seen with mtime 1714059936.3509648
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\loader.py first seen with mtime 1714059937.7948728
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\migrations\0005_auto_20240920_1905.py first seen with mtime 1726851926.9207275
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\migrations\__init__.py first seen with mtime 1714059936.465966
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskBackend\settings.py previous mtime: 1733258275.123587, current mtime: 1733259266.5470045
+C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskBackend\settings.py notified as changed. Signal results: [(<function template_changed at 0x000001C89B411828>, None), (<function translation_file_changed at 0x000001C89BD128B8>, None)].
+C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskBackend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\locale with glob **/*.mo.
+Watching dir C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\locale with glob **/*.mo.
+Watching dir C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\locale with glob **/*.mo.
+Watching dir C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\lib\site-packages\corsheaders\locale with glob **/*.mo.
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\__init__.py first seen with mtime 1714060130.8202486
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\translation\__init__.py first seen with mtime 1714059937.941041
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\async_checks.py first seen with mtime 1714059937.7042632
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\urls\exceptions.py first seen with mtime 1714059937.910987
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\decorators.py first seen with mtime 1714059935.7409165
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\datetime_safe.py first seen with mtime 1714059937.9224105
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\views.py first seen with mtime 1726853586.7236843
+File C:\Program Files\Python37\Lib\subprocess.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\DLLs\_overlapped.pyd first seen with mtime 1583833328.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\constraints.py first seen with mtime 1714059937.8075297
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\cache\backends\__init__.py first seen with mtime 1714059937.6988072
+File C:\Program Files\Python37\Lib\encodings\latin_1.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\functions\datetime.py first seen with mtime 1714059937.8246355
+File C:\Program Files\Python37\Lib\email\policy.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\backends\base.py first seen with mtime 1714059937.8933983
+File C:\Program Files\Python37\Lib\copy.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\security\__init__.py first seen with mtime 1714059937.7099497
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\crypto.py first seen with mtime 1714059937.9182463
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\models.py first seen with mtime 1714059936.3589518
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\introspection.py first seen with mtime 1714059937.7621524
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\management\commands\__init__.py first seen with mtime 1714059937.7314382
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\sql\__init__.py first seen with mtime 1714059937.828448
+File C:\Program Files\Python37\Lib\io.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\actions.py first seen with mtime 1714059935.7388122
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\translation\trans_real.py first seen with mtime 1714059937.9441857
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\forms.py first seen with mtime 1714059936.1790016
+File C:\Program Files\Python37\Lib\signal.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\asyncio\coroutines.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\weakref.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\reverse_related.py first seen with mtime 1714059937.8225412
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\messages.py first seen with mtime 1714059937.7054017
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\__init__.py first seen with mtime 1714059937.3013644
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\deconstruct.py first seen with mtime 1714059937.9224105
+File C:\Program Files\Python37\Lib\urllib\__init__.py first seen with mtime 1583829544.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\model_checks.py first seen with mtime 1714059937.7065237
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\admin.py first seen with mtime 1714059936.3565128
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\numberformat.py first seen with mtime 1714059937.9342718
+File C:\Program Files\Python37\Lib\quopri.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\generic\__init__.py first seen with mtime 1714059937.9536448
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\whitenoise\__init__.py first seen with mtime 1733004489.8606198
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\checks.py first seen with mtime 1714059936.1770065
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\filters\reindent.py first seen with mtime 1714059938.7525618
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\middleware\security.py first seen with mtime 1714059937.8831642
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\utils.py first seen with mtime 1714059937.7559125
+File C:\Program Files\Python37\Lib\asyncio\base_subprocess.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\middleware\csrf.py first seen with mtime 1714059937.880267
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\sql\subqueries.py first seen with mtime 1714059937.8329535
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\apps.py first seen with mtime 1714060130.8182528
+File C:\Program Files\Python37\Lib\enum.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\email\parser.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\functions\math.py first seen with mtime 1714059937.825633
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\html.py first seen with mtime 1714059937.9293447
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\helpers.py first seen with mtime 1714059935.7426903
+File C:\Program Files\Python37\DLLs\_ssl.pyd first seen with mtime 1583833348.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\csrf.py first seen with mtime 1714059937.9454606
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\corsheaders\checks.py first seen with mtime 1726998292.5263598
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\baseconv.py first seen with mtime 1714059937.916251
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\__init__.py first seen with mtime 1714059935.5520742
+File C:\Program Files\Python37\Lib\sre_constants.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\__init__.py first seen with mtime 1714059938.7406788
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\constants.py first seen with mtime 1714059937.8070042
+File C:\Program Files\Python37\Lib\html\entities.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\security\sessions.py first seen with mtime 1714059937.710947
+File C:\Program Files\Python37\Lib\email\_parseaddr.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\caches.py first seen with mtime 1714059937.7042632
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\uploadedfile.py first seen with mtime 1714059937.7158835
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\lookups.py first seen with mtime 1714059937.810919
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\__init__.py first seen with mtime 1714059937.7119448
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\servers\basehttp.py first seen with mtime 1714059937.7529123
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\ddl_references.py first seen with mtime 1714059937.7559125
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\deletion.py first seen with mtime 1714059937.8085485
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\__init__.py first seen with mtime 1714059936.174969
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\utils.py first seen with mtime 1714059938.7463863
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\paginator.py first seen with mtime 1714059937.6942303
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\formats.py first seen with mtime 1714059937.9269717
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\handlers\base.py first seen with mtime 1714059937.7195134
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\signals.py first seen with mtime 1714059937.81477
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\apps.py first seen with mtime 1714060143.7926297
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\lorem_ipsum.py first seen with mtime 1714059937.9330983
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\_ipaddress.py first seen with mtime 1732461484.5473986
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\models.py first seen with mtime 1714059937.8390622
+File C:\Program Files\Python37\Lib\email\message.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\static.py first seen with mtime 1714059937.9476137
+File C:\Program Files\Python37\Lib\logging\handlers.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\security\base.py first seen with mtime 1714059937.710947
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\filters.py first seen with mtime 1714059935.7419143
+File C:\Program Files\Python37\Lib\asyncio\format_helpers.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\email\mime\message.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\__init__.py first seen with mtime 1714059937.8169057
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\dates.py first seen with mtime 1714059937.921077
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\urls\conf.py first seen with mtime 1714059937.9099898
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\cli.py first seen with mtime 1714059938.7420385
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\base.py first seen with mtime 1714059937.8060327
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\__init__.py first seen with mtime 1714060143.7946258
+File C:\Program Files\Python37\Lib\typing.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\apps.py first seen with mtime 1714059937.682199
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\fields.py first seen with mtime 1714059937.8368597
+File C:\Program Files\Python37\Lib\collections\__init__.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\contextvars.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\nturl2path.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\management\commands\runserver.py first seen with mtime 1714059937.740831
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\__init__.py first seen with mtime 1714059937.7580056
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\exceptions.py first seen with mtime 1714059937.6942303
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\urls\resolvers.py first seen with mtime 1714059937.9119852
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\apps\__init__.py first seen with mtime 1714059935.5533414
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\generic\detail.py first seen with mtime 1714059937.9562857
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\utils.py first seen with mtime 1714059937.7580056
+File C:\Program Files\Python37\DLLs\_socket.pyd first seen with mtime 1583833334.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\registry.py first seen with mtime 1714059937.7075474
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\mail\__init__.py first seen with mtime 1714059937.7217057
+File C:\Program Files\Python37\Lib\_weakrefset.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\utils.py first seen with mtime 1714059937.685998
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\keywords.py first seen with mtime 1714059938.7434247
+File C:\Program Files\Python37\Lib\shlex.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\decorators\common.py first seen with mtime 1714059937.950154
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\postgresql\client.py first seen with mtime 1714059937.7819388
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\decorators\debug.py first seen with mtime 1714059937.951152
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\validators.py first seen with mtime 1714059936.1832542
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\creation.py first seen with mtime 1714059937.7597759
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\loader_tags.py first seen with mtime 1714059937.8901882
+File C:\Program Files\Python37\Lib\email\charset.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\mixins.py first seen with mtime 1714059937.8189
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\filters\__init__.py first seen with mtime 1714059938.750284
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\templatetags\tz.py first seen with mtime 1714059937.9030576
+File C:\Program Files\Python37\Lib\sre_compile.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\messages\__init__.py first seen with mtime 1714059936.9962628
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\functions\text.py first seen with mtime 1714059937.82663
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\http\multipartparser.py first seen with mtime 1714059937.8761199
+File C:\Program Files\Python37\Lib\asyncio\streams.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\base64.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\__init__.py first seen with mtime 1714059935.7388122
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\management\commands\runserver.py first seen with mtime 1714059937.689953
+File C:\Program Files\Python37\Lib\re.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\views.py first seen with mtime 1733074263.5778215
+File C:\Program Files\Python37\Lib\email\_encoded_words.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\apps.py first seen with mtime 1714059936.3565128
+File C:\Program Files\Python37\Lib\asyncio\tasks.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\views\__init__.py first seen with mtime 1714059936.043754
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\timesince.py first seen with mtime 1714059937.9370527
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\views.py first seen with mtime 1714059937.6869957
+File C:\Program Files\Python37\Lib\email\mime\nonmultipart.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\email\contentmanager.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\asyncio\base_tasks.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\operations\fields.py first seen with mtime 1714059937.8020086
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\formsets.py first seen with mtime 1714059937.8380225
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\middleware.py first seen with mtime 1714059936.1799295
+File C:\Program Files\Python37\Lib\asyncio\proactor_events.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\asgiref\current_thread_executor.py first seen with mtime 1714059938.9134877
+File C:\Program Files\Python37\Lib\sre_parse.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\_compression.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\_os.py first seen with mtime 1714059937.9130425
+File C:\Program Files\Python37\Lib\ipaddress.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\loaders\__init__.py first seen with mtime 1714059937.896392
+File C:\Program Files\Python37\Lib\calendar.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\importlib\machinery.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\threading.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\cache\backends\filebased.py first seen with mtime 1714059937.701323
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\exceptions.py first seen with mtime 1714059937.7928567
+File C:\Program Files\Python37\Lib\html\parser.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\__init__.py first seen with mtime 1732461484.5454037
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\postgresql\operations.py first seen with mtime 1714059937.784789
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\text.py first seen with mtime 1714059937.9370527
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\options.py first seen with mtime 1714059935.7436883
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\indexes.py first seen with mtime 1714059937.810919
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\templatetags\__init__.py first seen with mtime 1714059937.8998742
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\loaders\cached.py first seen with mtime 1714059937.897507
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\backends\__init__.py first seen with mtime 1714059937.8923903
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\move.py first seen with mtime 1714059937.7148216
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\duration.py first seen with mtime 1714059937.924659
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\proxy.py first seen with mtime 1714059937.8193755
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\operations\special.py first seen with mtime 1714059937.8030057
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\utils.py first seen with mtime 1714059937.815767
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\__init__.py first seen with mtime 1714059937.9130425
+File C:\Program Files\Python37\Lib\email\quoprimime.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\unittest\runner.py first seen with mtime 1583829544.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\templatetags\log.py first seen with mtime 1714059936.043754
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\loaders\base.py first seen with mtime 1714059937.897507
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\finders.py first seen with mtime 1714059937.683208
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\autoreload.py first seen with mtime 1714059937.8842494
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\__init__.py first seen with mtime 1714059937.7033172
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\response.py first seen with mtime 1714059937.8912494
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\engine\filter_stack.py first seen with mtime 1714059938.7477078
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\templatetags\l10n.py first seen with mtime 1714059937.9010282
+File C:\Program Files\Python37\Lib\wsgiref\headers.py first seen with mtime 1583829544.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\checks.py first seen with mtime 1714059935.7398243
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\middleware\cache.py first seen with mtime 1714059937.878272
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\generic\list.py first seen with mtime 1714059937.9569373
+File C:\Program Files\Python37\Lib\_sitebuiltins.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\generic\dates.py first seen with mtime 1714059937.9553206
+File C:\Program Files\Python37\Lib\numbers.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\engine\statement_splitter.py first seen with mtime 1714059938.7491217
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\decorators\__init__.py first seen with mtime 1714059937.9487538
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\dj_database_url.py first seen with mtime 1732489905.0491867
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\_psycopg.cp37-win_amd64.pyd first seen with mtime 1732461484.5758362
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\regex_helper.py first seen with mtime 1714059937.9352703
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\templatetags\__init__.py first seen with mtime 1714059936.041649
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\models.py first seen with mtime 1714059937.3045533
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\forms.py first seen with mtime 1714059937.8380225
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\pytz\exceptions.py first seen with mtime 1714059938.2311394
+File C:\Program Files\Python37\Lib\email\base64mime.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\ntpath.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\urls\utils.py first seen with mtime 1714059937.9130425
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\asyncio.py first seen with mtime 1714059937.9151597
+File C:\Program Files\Python37\Lib\asyncio\runners.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\email\generator.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\loaders\filesystem.py first seen with mtime 1714059937.898734
+File C:\Program Files\Python37\Lib\tempfile.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\database.py first seen with mtime 1714059937.7054017
+File C:\Program Files\Python37\Lib\platform.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\__init__.py first seen with mtime 1714059935.7388122
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\cache.py first seen with mtime 1714059937.917249
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\templatetags\admin_urls.py first seen with mtime 1714059936.0427136
+File C:\Program Files\Python37\Lib\mimetypes.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\DLLs\unicodedata.pyd first seen with mtime 1583833332.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\files.py first seen with mtime 1714059937.8179028
+File C:\Program Files\Python37\Lib\secrets.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\tokenize.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\exceptions.py first seen with mtime 1714059937.889009
+File C:\Program Files\Python37\Lib\socket.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\errors.py first seen with mtime 1732461484.59397
+File C:\Program Files\Python37\Lib\importlib\abc.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\asgiref\local.py first seen with mtime 1714059938.915486
+File C:\Program Files\Python37\Lib\pkgutil.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\servers\__init__.py first seen with mtime 1714059937.7529123
+File C:\Program Files\Python37\Lib\urllib\parse.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\renderers.py first seen with mtime 1714059937.840052
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\encoding.py first seen with mtime 1714059937.9256575
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\serializers\base.py first seen with mtime 1714059937.7494764
+File C:\Program Files\Python37\Lib\_bootlocale.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\collections\abc.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\log.py first seen with mtime 1714059937.9330983
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\whitenoise\base.py first seen with mtime 1733004489.8616197
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\related_lookups.py first seen with mtime 1714059937.8225412
+File C:\Program Files\Python37\Lib\unittest\signals.py first seen with mtime 1583829544.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\decorators\cache.py first seen with mtime 1714059937.9487538
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\management\base.py first seen with mtime 1714059937.7279017
+File C:\Program Files\Python37\Lib\wsgiref\__init__.py first seen with mtime 1583829544.0
+File C:\Program Files\Python37\Lib\email\mime\__init__.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\_range.py first seen with mtime 1732461484.5909796
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\functions\__init__.py first seen with mtime 1714059937.8235383
+File C:\Program Files\Python37\Lib\email\_header_value_parser.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\exceptions.py first seen with mtime 1714059935.7409165
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\library.py first seen with mtime 1714059937.889009
+File C:\Program Files\Python37\Lib\opcode.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\datetime.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\wsgi.py first seen with mtime 1714059937.6966848
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\sites.py first seen with mtime 1714059935.7442858
+File C:\Program Files\Python37\Lib\email\__init__.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\http\cookies.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\DLLs\_queue.pyd first seen with mtime 1583833328.0
+File C:\Program Files\Python37\Lib\genericpath.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\operations\base.py first seen with mtime 1714059937.8010108
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\base.py first seen with mtime 1714059937.7129579
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\pytz\__init__.py first seen with mtime 1714059938.230142
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\json.py first seen with mtime 1714059937.8179028
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskBackend\urls.py first seen with mtime 1726841307.8719275
+File C:\Program Files\Python37\Lib\uu.py first seen with mtime 1583829544.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\urls\converters.py first seen with mtime 1714059937.910987
+File C:\Program Files\Python37\Lib\locale.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\email\errors.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\DLLs\_ctypes.pyd first seen with mtime 1583833326.0
+File C:\Program Files\Python37\Lib\encodings\cp1252.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\asyncio\base_events.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\autoreload.py first seen with mtime 1714059937.916251
+File C:\Program Files\Python37\Lib\_collections_abc.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\tree.py first seen with mtime 1714059937.9390466
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\context.py first seen with mtime 1714059937.8848152
+File C:\Program Files\Python37\Lib\asyncio\windows_utils.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\storage.py first seen with mtime 1714059937.7148216
+File C:\Program Files\Python37\Lib\asyncio\queues.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\email\header.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\images.py first seen with mtime 1714059937.7129579
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\models.py first seen with mtime 1714059935.7426903
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sites\shortcuts.py first seen with mtime 1714059937.4808204
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\module_loading.py first seen with mtime 1714059937.9340968
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\postgresql\base.py first seen with mtime 1714059937.7809412
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\validators.py first seen with mtime 1714059937.6966848
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\translation\reloader.py first seen with mtime 1714059937.9420378
+File C:\Program Files\Python37\Lib\urllib\request.py first seen with mtime 1583829548.0
+File C:\Program Files\Python37\Lib\difflib.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\__init__.py first seen with mtime 1714059937.8050008
+File C:\Program Files\Python37\Lib\__future__.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\sql\constants.py first seen with mtime 1714059937.8294868
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\signals.py first seen with mtime 1714059936.181574
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\filters\tokens.py first seen with mtime 1714059938.75356
+File C:\Program Files\Python37\Lib\os.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\asyncio\transports.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\corsheaders\conf.py first seen with mtime 1726998292.5283349
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\engine.py first seen with mtime 1714059937.8876643
+File C:\Program Files\Python37\DLLs\_asyncio.pyd first seen with mtime 1583833326.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\hashable.py first seen with mtime 1714059937.928345
+File C:\Program Files\Python37\Lib\logging\__init__.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\warnings.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\shortcuts.py first seen with mtime 1714059935.5533414
+File C:\Program Files\Python37\Lib\asyncio\selector_events.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\decimal.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\dispatch\dispatcher.py first seen with mtime 1714059937.8343315
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\templatetags\i18n.py first seen with mtime 1714059937.9010282
+File C:\Program Files\Python37\DLLs\_decimal.pyd first seen with mtime 1583833324.0
+File C:\Program Files\Python37\Lib\copyreg.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\sql\query.py first seen with mtime 1714059937.8316681
+File C:\Program Files\Python37\Lib\bz2.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\http\request.py first seen with mtime 1714059937.8771176
+File C:\Program Files\Python37\DLLs\_bz2.pyd first seen with mtime 1583833336.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\termcolors.py first seen with mtime 1714059937.936054
+File C:\Program Files\Python37\Lib\email\utils.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\argparse.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\loaders\app_directories.py first seen with mtime 1714059937.896392
+File C:\Program Files\Python37\Lib\ctypes\wintypes.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskBackend\settings.py first seen with mtime 1733259319.386696
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\management\__init__.py first seen with mtime 1714059936.4639237
+File C:\Program Files\Python37\Lib\concurrent\__init__.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\expressions.py first seen with mtime 1714059937.8095243
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\templatetags\cache.py first seen with mtime 1714059937.8998742
+File C:\Program Files\Python37\Lib\importlib\__init__.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\sql\datastructures.py first seen with mtime 1714059937.8304043
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\base.py first seen with mtime 1714059937.8848152
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\apps.py first seen with mtime 1714059937.3013644
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\related_descriptors.py first seen with mtime 1714059937.8215442
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\functions\comparison.py first seen with mtime 1714059937.8245356
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\filters\aligned_indent.py first seen with mtime 1714059938.750284
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\tokens.py first seen with mtime 1714059938.7463863
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\views\main.py first seen with mtime 1714059936.04584
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\security\csrf.py first seen with mtime 1714059937.710947
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\operations.py first seen with mtime 1714059937.7621524
+File C:\Program Files\Python37\Lib\asyncio\__init__.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\encodings\utf_8.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\shutil.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\_markupbase.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\signals.py first seen with mtime 1714059937.7570086
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\__init__.py first seen with mtime 1714059937.7559125
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\conf\__init__.py first seen with mtime 1714059935.5600193
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\features.py first seen with mtime 1714059937.7608087
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\utils.py first seen with mtime 1714059935.745342
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\dj_config_url.py first seen with mtime 1732489905.0505633
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\debug.py first seen with mtime 1714059937.9464583
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\defaulttags.py first seen with mtime 1714059937.8876643
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\smartif.py first seen with mtime 1714059937.8912494
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\apps.py first seen with mtime 1714059936.1760037
+File C:\Program Files\Python37\Lib\gettext.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\DLLs\_lzma.pyd first seen with mtime 1583833350.0
+File C:\Program Files\Python37\Lib\inspect.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\wsgiref\simple_server.py first seen with mtime 1583829548.0
+File C:\Program Files\Python37\Lib\html\__init__.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\heapq.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\postgresql\__init__.py first seen with mtime 1714059937.7800922
+File C:\Program Files\Python37\Lib\wsgiref\util.py first seen with mtime 1583829548.0
+File C:\Program Files\Python37\Lib\_compat_pickle.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\migration.py first seen with mtime 1714059937.7953973
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\__init__.py first seen with mtime 1714059937.75391
+File C:\Program Files\Python37\Lib\bisect.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\fields\related.py first seen with mtime 1714059937.8205464
+File C:\Program Files\Python37\Lib\uuid.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\management\__init__.py first seen with mtime 1714059937.6869957
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\state.py first seen with mtime 1714059937.7984173
+File C:\Program Files\Python37\Lib\asyncio\subprocess.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\options.py first seen with mtime 1714059937.812393
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\urls\base.py first seen with mtime 1714059937.9099898
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\client.py first seen with mtime 1714059937.7597759
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\__init__.py first seen with mtime 1714059937.8353286
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\middleware\__init__.py first seen with mtime 1714059937.8771176
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\functions\mixins.py first seen with mtime 1714059937.82663
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\pytz\lazy.py first seen with mtime 1714059938.2321754
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\filters\output.py first seen with mtime 1714059938.7512817
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\models.py first seen with mtime 1714059936.1809275
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\functions\window.py first seen with mtime 1714059937.8276284
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\manager.py first seen with mtime 1714059937.812393
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\messages\storage\__init__.py first seen with mtime 1714059937.0010965
+File C:\Program Files\Python37\Lib\operator.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\__init__.py first seen with mtime 1714059937.9441857
+File C:\Program Files\Python37\Lib\asyncio\windows_events.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\pytz\tzinfo.py first seen with mtime 1714059938.23421
+File C:\Program Files\Python37\Lib\asyncio\locks.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\asyncio\sslproto.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\cache\backends\base.py first seen with mtime 1714059937.6988072
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\pytz\tzfile.py first seen with mtime 1714059938.23421
+File C:\Program Files\Python37\Lib\token.py first seen with mtime 1583829548.0
+File C:\Program Files\Python37\Lib\concurrent\futures\thread.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\encodings\__init__.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\whitenoise\responders.py first seen with mtime 1733004489.8666036
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\decouple.py first seen with mtime 1732485249.2729645
+File C:\Program Files\Python37\Lib\unittest\main.py first seen with mtime 1583829544.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\__init__.py first seen with mtime 1714059937.8832524
+File C:\Program Files\Python37\Lib\gzip.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\_json.py first seen with mtime 1732461484.549852
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\ipv6.py first seen with mtime 1714059937.9306798
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\errorcodes.py first seen with mtime 1732461484.592973
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\uploadhandler.py first seen with mtime 1714059937.717446
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\apps\registry.py first seen with mtime 1714059935.554421
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\http.py first seen with mtime 1714059937.9295664
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\exceptions.py first seen with mtime 1714059938.7420385
+File C:\Program Files\Python37\Lib\ssl.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\abc.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\aggregates.py first seen with mtime 1714059937.8050008
+File C:\Program Files\Python37\Lib\ctypes\__init__.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\reprlib.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\schema.py first seen with mtime 1714059937.7637568
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\models.py first seen with mtime 1733008227.5803103
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\typing_extensions.py first seen with mtime 1714059939.0777128
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\filters\right_margin.py first seen with mtime 1714059938.75356
+File C:\Program Files\Python37\Lib\asyncio\log.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\admin.py first seen with mtime 1714060130.8161316
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\boundfield.py first seen with mtime 1714059937.8363278
+File C:\Program Files\Python37\Lib\asyncio\events.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\apps\config.py first seen with mtime 1714059935.554421
+File C:\Program Files\Python37\Lib\email\_policybase.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\unittest\result.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\operations\utils.py first seen with mtime 1714059937.8040042
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\generic\edit.py first seen with mtime 1714059937.9562857
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\connection.py first seen with mtime 1714059937.9182463
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\templatetags\admin_modify.py first seen with mtime 1714059936.0427136
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sites\__init__.py first seen with mtime 1714059937.4745257
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\utils.py first seen with mtime 1714059937.717446
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\utils.py first seen with mtime 1714059937.8923903
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\handlers.py first seen with mtime 1714059937.683208
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\messages\apps.py first seen with mtime 1714059936.9972608
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\extensions.py first seen with mtime 1732461484.5949266
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\operations\models.py first seen with mtime 1714059937.8020086
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\itercompat.py first seen with mtime 1714059937.931883
+File C:\Program Files\Python37\Lib\contextlib.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\socketserver.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\traceback.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\checks.py first seen with mtime 1714059937.682199
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\mail\utils.py first seen with mtime 1714059937.723078
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\urls\__init__.py first seen with mtime 1714059937.9085677
+File C:\Program Files\Python37\Lib\unittest\loader.py first seen with mtime 1583829544.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\psycopg2\extras.py first seen with mtime 1732461484.595923
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\checks.py first seen with mtime 1714059936.3578782
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\cache\backends\locmem.py first seen with mtime 1714059937.7023227
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\hashers.py first seen with mtime 1714059936.1799295
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\handlers\asgi.py first seen with mtime 1714059937.7184858
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\utils.py first seen with mtime 1714059937.8409176
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\admin.py first seen with mtime 1714060143.790253
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\postgresql\introspection.py first seen with mtime 1714059937.7837932
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\serializers\__init__.py first seen with mtime 1714059937.7484784
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\filters\others.py first seen with mtime 1714059938.7512817
+File C:\Program Files\Python37\Lib\asyncio\constants.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\management\__init__.py first seen with mtime 1714059936.3468182
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\templatetags\static.py first seen with mtime 1714059937.9020336
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\admin.py first seen with mtime 1714059936.174969
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\views\autocomplete.py first seen with mtime 1714059936.0447524
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\signing.py first seen with mtime 1714059937.6954823
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\forms.py first seen with mtime 1714059936.3588758
+File C:\Program Files\Python37\Lib\email\mime\multipart.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\enums.py first seen with mtime 1714059937.8095243
+File C:\Program Files\Python37\Lib\hashlib.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\temp.py first seen with mtime 1714059937.7158835
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\backends\django.py first seen with mtime 1714059937.8933983
+File C:\Program Files\Python37\Lib\functools.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\http\server.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\sql\where.py first seen with mtime 1714059937.8329535
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\__init__.py first seen with mtime 1714059937.6809084
+File C:\Program Files\Python37\Lib\lzma.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\string.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\handlers\exception.py first seen with mtime 1714059937.7204926
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\operations\__init__.py first seen with mtime 1714059937.8010108
+File C:\Program Files\Python37\Lib\types.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\fields.py first seen with mtime 1714059936.3578782
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\serializers\json.py first seen with mtime 1714059937.7496111
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\dateparse.py first seen with mtime 1714059937.921077
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\messages\api.py first seen with mtime 1714059936.9962628
+File C:\Program Files\Python37\Lib\logging\config.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\wsgiref\handlers.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\backends.py first seen with mtime 1714059936.1760037
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\widgets.py first seen with mtime 1714059935.745342
+File C:\Program Files\Python37\Lib\getpass.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\base_session.py first seen with mtime 1714059937.302559
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\__init__.py first seen with mtime 1714059936.3565128
+File C:\Program Files\Python37\Lib\asyncio\base_futures.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\http\cookie.py first seen with mtime 1714059937.8751707
+File C:\Program Files\Python37\Lib\asyncio\protocols.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\dateformat.py first seen with mtime 1714059937.9200828
+File C:\Program Files\Python37\Lib\email\mime\text.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\http\client.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\urllib\response.py first seen with mtime 1583829548.0
+File C:\Program Files\Python37\Lib\email\encoders.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\dis.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\email\headerregistry.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\keyword.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\postgresql\creation.py first seen with mtime 1714059937.7819388
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\handlers\__init__.py first seen with mtime 1714059937.7184858
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\generic\base.py first seen with mtime 1714059937.9542909
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\inspect.py first seen with mtime 1714059937.9306798
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\__init__.py first seen with mtime 1714059937.692816
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\postgresql\schema.py first seen with mtime 1714059937.784789
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\management\commands\__init__.py first seen with mtime 1714059937.6879945
+File C:\Program Files\Python37\Lib\json\__init__.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\unittest\suite.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\engine\grouping.py first seen with mtime 1714059938.7491217
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\decorators\csrf.py first seen with mtime 1714059937.951152
+File C:\Program Files\Python37\Lib\site.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\cache\utils.py first seen with mtime 1714059937.6987317
+File C:\Program Files\Python37\Lib\concurrent\futures\__init__.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\ctypes\_endian.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\models.py first seen with mtime 1732481525.230586
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\apps.py first seen with mtime 1714059935.7398243
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\translation.py first seen with mtime 1714059937.7085447
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\safestring.py first seen with mtime 1714059937.9352703
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\base_user.py first seen with mtime 1714059936.1760037
+File C:\Program Files\Python37\Lib\codecs.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\dispatch\__init__.py first seen with mtime 1714059937.8343315
+File C:\Program Files\Python37\Lib\posixpath.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\selectors.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\topological_sort.py first seen with mtime 1714059937.9390466
+File C:\Program Files\Python37\DLLs\_hashlib.pyd first seen with mtime 1583833334.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\utils.py first seen with mtime 1714059937.7996063
+File C:\Program Files\Python37\Lib\json\decoder.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskBackend\__init__.py first seen with mtime 1714060038.029362
+File C:\Program Files\Python37\DLLs\select.pyd first seen with mtime 1583833328.0
+File C:\Program Files\Python37\Lib\importlib\util.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\deprecation.py first seen with mtime 1714059937.923599
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\http\__init__.py first seen with mtime 1714059937.8741734
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\urls.py first seen with mtime 1714059937.7089517
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\query_utils.py first seen with mtime 1714059937.81477
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\mail\message.py first seen with mtime 1714059937.7217057
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\datastructures.py first seen with mtime 1714059937.9190848
+File C:\Program Files\Python37\Lib\cgi.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\corsheaders\apps.py first seen with mtime 1726998292.5232632
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\loader.py first seen with mtime 1714059937.8901882
+File C:\Program Files\Python37\Lib\json\scanner.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\signals.py first seen with mtime 1714059937.6954823
+File C:\Program Files\Python37\Lib\stat.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\files\locks.py first seen with mtime 1714059937.7138245
+File C:\Program Files\Python37\Lib\configparser.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\formatter.py first seen with mtime 1714059938.7434247
+File C:\Program Files\Python37\Lib\random.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\messages\constants.py first seen with mtime 1714059936.9981031
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\management\color.py first seen with mtime 1714059937.7288992
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\i18n.py first seen with mtime 1714059937.947492
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\password_validation.py first seen with mtime 1714059936.181574
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\serializers\python.py first seen with mtime 1714059937.7506948
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\management\__init__.py first seen with mtime 1714059937.7279017
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\asgiref\sync.py first seen with mtime 1714059938.917514
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\corsheaders\defaults.py first seen with mtime 1726998292.530483
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\validation.py first seen with mtime 1714059937.7637568
+File C:\Program Files\Python37\Lib\pickle.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\concurrent\futures\_base.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py first seen with mtime 1714059936.041649
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\__init__.py first seen with mtime 1714059937.79186
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\engine\__init__.py first seen with mtime 1714059938.7477078
+File C:\Program Files\Python37\Lib\email\iterators.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\decorators.py first seen with mtime 1714059936.1790016
+File C:\Program Files\Python37\Lib\glob.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\asgiref\__init__.py first seen with mtime 1714059938.911982
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\decorators.py first seen with mtime 1714059937.923599
+File C:\Program Files\Python37\Lib\pathlib.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\hmac.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\transaction.py first seen with mtime 1714059937.754907
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\cache\__init__.py first seen with mtime 1714059937.6977339
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\corsheaders\__init__.py first seen with mtime 1726998292.5169683
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\conf\locale\__init__.py first seen with mtime 1714059935.5633793
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\template\defaultfilters.py first seen with mtime 1714059937.8862944
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\base\base.py first seen with mtime 1714059937.7587788
+File C:\Program Files\Python37\Lib\asyncio\futures.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\timezone.py first seen with mtime 1714059937.93805
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\whitenoise\media_types.py first seen with mtime 1733004489.8646107
+File C:\Program Files\Python37\Lib\pprint.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\forms\widgets.py first seen with mtime 1714059937.84195
+File C:\Program Files\Python37\Lib\json\encoder.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\urllib\error.py first seen with mtime 1583829544.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\handlers\wsgi.py first seen with mtime 1714059937.7207081
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\templatetags\base.py first seen with mtime 1714059936.043754
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\manage.py first seen with mtime 1714060038.0076435
+File C:\Program Files\Python37\Lib\http\__init__.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\backends\postgresql\features.py first seen with mtime 1714059937.7827935
+File C:\Program Files\Python37\Lib\unittest\util.py first seen with mtime 1583829544.0
+File C:\Program Files\Python37\Lib\fnmatch.py first seen with mtime 1583829542.0
+File C:\Program Files\Python37\Lib\queue.py first seen with mtime 1583829546.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\core\checks\templates.py first seen with mtime 1714059937.7075474
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\lexer.py first seen with mtime 1714059938.74508
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\version.py first seen with mtime 1714059937.9400434
+File C:\Program Files\Python37\Lib\encodings\aliases.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\unittest\__init__.py first seen with mtime 1583829548.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\conf\global_settings.py first seen with mtime 1714059935.5600193
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\models\query.py first seen with mtime 1714059937.813413
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\utils\functional.py first seen with mtime 1714059937.928345
+File C:\Program Files\Python37\Lib\email\feedparser.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\tokens.py first seen with mtime 1714059936.1825716
+File C:\Program Files\Python37\Lib\struct.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\http\response.py first seen with mtime 1714059937.8771176
+File C:\Program Files\Python37\Lib\unittest\case.py first seen with mtime 1583829548.0
+File C:\Program Files\Python37\Lib\linecache.py first seen with mtime 1583829546.0
+File C:\Program Files\Python37\Lib\email\mime\base.py first seen with mtime 1583829542.0
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\sqlparse\sql.py first seen with mtime 1714059938.74508
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\migrations\0001_initial.py first seen with mtime 1714059935.9495885
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\migrations\__init__.py first seen with mtime 1714082631.0542893
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\migrations\0003_logentry_add_action_flag_choices.py first seen with mtime 1714059935.950631
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\loader.py first seen with mtime 1714059937.7948728
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\middleware\common.py first seen with mtime 1714059937.8792696
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0009_alter_user_last_name_max_length.py first seen with mtime 1714059936.3523571
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\migrations\0001_initial.py first seen with mtime 1714129948.1095245
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\migrations\0001_initial.py first seen with mtime 1714059937.468166
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\views\defaults.py first seen with mtime 1714059937.9464583
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\exceptions.py first seen with mtime 1714059937.302559
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0008_alter_user_username_max_length.py first seen with mtime 1714059936.3523571
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\migrations\0004_comment.py first seen with mtime 1726363395.748989
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0010_alter_group_name_max_length.py first seen with mtime 1714059936.3533545
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0007_alter_validators_add_error_messages.py first seen with mtime 1714059936.3519633
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0006_require_contenttypes_0002.py first seen with mtime 1714059936.3509648
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\migrations\0003_auto_20241124_2152.py first seen with mtime 1732481541.3902867
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\whitenoise\middleware.py first seen with mtime 1733004489.8656094
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0003_alter_user_email_max_length.py first seen with mtime 1714059936.3500154
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\backends\base.py first seen with mtime 1714059937.3061516
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\recorder.py first seen with mtime 1714059937.7972252
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\migrations\0005_auto_20240920_1905.py first seen with mtime 1726851926.9207275
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\messages\middleware.py first seen with mtime 1714059936.9991014
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\migrations\0006_auto_20241124_2152.py first seen with mtime 1732481541.3925476
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\conf\urls\__init__.py first seen with mtime 1714059935.7377377
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\migrations\0001_initial.py first seen with mtime 1714082717.8605838
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\migrations\__init__.py first seen with mtime 1714059937.4691632
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\migrations\0002_alter_user_password.py first seen with mtime 1714150901.2820754
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\migrations\0002_remove_content_type_name.py first seen with mtime 1714059936.464965
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\middleware.py first seen with mtime 1714059937.3035562
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\whitenoise\string_utils.py first seen with mtime 1733004489.868598
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0011_update_proxy_permissions.py first seen with mtime 1714059936.3533545
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0012_alter_user_first_name_max_length.py first seen with mtime 1714059936.3543527
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\executor.py first seen with mtime 1714059937.793855
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\migrations\0002_alter_task_taskdate.py first seen with mtime 1714148548.9136388
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\taskManagement\migrations\0003_task_user.py first seen with mtime 1714149567.303174
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\sessions\backends\__init__.py first seen with mtime 1714059937.3051546
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\migrations\0002_logentry_remove_auto_add.py first seen with mtime 1714059935.9495885
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0002_alter_permission_name_max_length.py first seen with mtime 1714059936.3489704
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\admin\migrations\__init__.py first seen with mtime 1714059935.950631
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0001_initial.py first seen with mtime 1714059936.3489704
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0004_alter_user_username_opts.py first seen with mtime 1714059936.3500154
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\__init__.py first seen with mtime 1714059936.35446
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\staticfiles\storage.py first seen with mtime 1714059937.6846051
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\migrations\__init__.py first seen with mtime 1714059936.465966
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\contenttypes\migrations\0001_initial.py first seen with mtime 1714059936.464965
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\migrations\0004_auto_20241126_1556.py first seen with mtime 1732632964.6602273
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\db\migrations\graph.py first seen with mtime 1714059937.793855
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\authentication\migrations\__init__.py first seen with mtime 1714082620.9180584
+File C:\Users\hp\Desktop\devloppement\Programming\Python\task-backend\env\Lib\site-packages\django\contrib\auth\migrations\0005_alter_user_last_login_null.py first seen with mtime 1714059936.3509648

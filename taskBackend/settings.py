@@ -31,20 +31,19 @@ SECRET_KEY = config('SECRET_KEY')
 
 ALLOWED_HOSTS = [
     config('LOCAL_FRONT_HOST'),
-    config('HTTPS_RENDER_SERVER'),
-    config('HTTP_RENDER_SERVER'),
+    config('RENDER_HOST')
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    config('LOCAL_FRONT_HOST'),
-    config('HTTPS_RENDER_SERVER'),
-    config('HTTP_RENDER_SERVER'),
+    config('LOCAL_FRONT_URL'),
+    config('HTTPS_RENDER_URL'),
+    config('HTTP_RENDER_URL'),
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    config('HTTPS_RENDER_SERVER'),
-    config('HTTP_RENDER_SERVER'),
-    config('LOCAL_FRONT_HOST')
+    config('HTTPS_RENDER_URL'),
+    config('HTTP_RENDER_URL'),
+    config('LOCAL_FRONT_URL')
 ]
 
 CSRF_HEADER_NAME = 'HTTP_X_CSRFTOKEN'
