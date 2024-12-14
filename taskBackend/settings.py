@@ -41,6 +41,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 
 ALLOWED_HOSTS = [
+    '*',
     config('LOCAL_FRONT_HOST'),
     config('RENDER_HOST')
 ]
@@ -51,6 +52,8 @@ CORS_ALLOWED_ORIGINS = [
     config('HTTP_RENDER_URL'),
 ]
 
+CORS_ALLOW_CREDENTIALS = True
+
 CSRF_TRUSTED_ORIGINS = [
     config('HTTPS_RENDER_URL'),
     config('HTTP_RENDER_URL'),
@@ -58,9 +61,10 @@ CSRF_TRUSTED_ORIGINS = [
 ]
 
 CSRF_HEADER_NAME = 'HTTP_X_CSRFTOKEN'
-CSRF_COOKIE_SECURE = True
+CSRF_COOKIE_NAME = "csrftoken"
+CSRF_COOKIE_SECURE = False
 CSRF_COOKIE_HTTPONLY = False
-CSRF_USE_SESSIONS = True
+CSRF_USE_SESSIONS = False
 # Application definition
 
 INSTALLED_APPS = [
