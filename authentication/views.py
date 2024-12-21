@@ -4,8 +4,8 @@ from django.views.decorators.csrf import csrf_exempt,csrf_protect
 from django.contrib.auth.decorators import login_required
 from django.core.exceptions import ValidationError
 from django.forms.models import model_to_dict
-from django.middleware.csrf import get_token
 from authentication.models import User
+from authentication.Jwt import generate_token, jwt_required
 import json
 
 
@@ -19,7 +19,7 @@ def logIn(request):
             user = authenticate(request, username=username, password=password)
             if user is not None:
                 login(request, user)
-                token = get_token(request)
+                token = generate_token(user)
                 print(f"Token CSRF généré: {token}")
                 user_data = {
                     'id': user.id,
@@ -30,7 +30,6 @@ def logIn(request):
                     'token': token
                 }
                 response = JsonResponse(user_data, status=200)
-                # response.set_cookie('csrftoken', token)
                 return response
             else:
                 return JsonResponse({'error': 'Nom d\'utilisateur ou mot de passe incorrect'}, status=401)
@@ -58,13 +57,12 @@ def signUp(request):
             )
             user.full_clean()
             user.save()
-            token = get_token(request)
+            token = generate_token(user)
             print(f"Token CSRF généré: {token}")
             login(request, user)
             userData = model_to_dict(User.objects.get(username=user.username))
             userData['token'] = token
             response = JsonResponse(userData, status=200)
-            # response.set_cookie('csrftoken', token)
             return response
         except json.JSONDecodeError:
             return JsonResponse({'error': 'format de donnee invalid'}, status=400)
@@ -75,7 +73,7 @@ def signUp(request):
         return JsonResponse({'error': 'methode HTTP non autoriser'}, status=405)
 
 @login_required
-@csrf_protect
+@jwt_required
 def change_password(request):
     if request.method == 'PUT':
         try:
@@ -96,7 +94,14 @@ def change_password(request):
         return JsonResponse({'eror':'methode HTTP non autoriser'}, status=405)
 
 @login_required
-@csrf_protect
+@csrf_exempt
+@jwt_required
 def logOut(request):
-    logout(request)
-    return JsonResponse({'message':'user logged out'}, status=200)
+    print("Starting logout process")
+    try:
+        logout(request)
+        print("User logged out successfully")
+        return JsonResponse({'message': 'user logged out'}, status=200)
+    except Exception as e:
+        print(f"Error during logout: {e}")
+    return JsonResponse({'error': 'Logout failed'}, status=500)
