@@ -3,14 +3,16 @@ from django.forms import model_to_dict
 from taskManagement.models import Task
 from django.http import JsonResponse
 from django.contrib.auth.decorators import login_required
-from django.views.decorators.csrf import csrf_protect
+from django.views.decorators.csrf import csrf_exempt
+from authentication.Jwt import jwt_required
 from django.shortcuts import get_object_or_404
 from taskManagement.models import Comment
 import json
 from datetime import date
 
 @login_required
-@csrf_protect
+@csrf_exempt
+@jwt_required
 def get_tasks(request):
     if request.method == 'GET':
         try:
@@ -24,7 +26,8 @@ def get_tasks(request):
         return JsonResponse({'error':'methode HTTP non autoriser'}, status=405)
 
 @login_required
-@csrf_protect
+@csrf_exempt
+@jwt_required
 def add_task(request):
     if request.method == 'POST':
         try:
@@ -45,7 +48,8 @@ def add_task(request):
         return JsonResponse({'error':'methode HTTP non autorise'},status=405)
 
 @login_required
-@csrf_protect
+@csrf_exempt
+@jwt_required
 def edit_task(request,id):
     if request.method == 'PUT':
         try:
@@ -61,7 +65,8 @@ def edit_task(request,id):
         return JsonResponse({'error':'methode HTTP non authorise'}, status=405)
 
 @login_required
-@csrf_protect
+@csrf_exempt
+@jwt_required
 def delete_task(request,id):
     if request.method == 'DELETE':
         try:
@@ -74,7 +79,8 @@ def delete_task(request,id):
         return JsonResponse({'error':'methodle HTTP non autorizer'}, status=405)
 
 @login_required
-@csrf_protect
+@csrf_exempt
+@jwt_required
 def get_comments(request, id):
     if request.method == 'GET':
         try:
@@ -88,7 +94,8 @@ def get_comments(request, id):
 
 
 @login_required
-@csrf_protect
+@csrf_exempt
+@jwt_required
 def addCommentToTask(request, id):
     createdAt = date.today()
     if request.method == 'POST':
