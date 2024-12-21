@@ -29,12 +29,27 @@ class Task(models.Model):
 
     @classmethod
     def get_status_value(cls, label):
+        """
+        Cette méthode de classe permet de récupérer la valeur du statut correspondant à un label donné.
+        Elle recherche dans le dictionnaire des statuts (`CHOICES_STATUS`) et renvoie la clé associée au label.
+
+        :param label: Le label du statut (ex. "Not started", "In progress").
+        :return: La valeur associée au label du statut (ex. 'NOT_STARTED', 'IN_PROGRESS').
+        """
         status_dict = dict(cls.CHOICES_STATUS)
         for key, value in status_dict.items():
             if value == label:
                 return key
 
     def update_fields(self, **kwargs):
+        """
+        Cette méthode permet de mettre à jour les champs de la tâche avec les données fournies dans `kwargs`.
+        Elle vérifie que les champs modifiés sont valides et met à jour les attributs correspondants de l'instance de tâche.
+        Si le champ `status` est modifié, la méthode convertit le label en valeur.
+
+        :param kwargs: Un ensemble de paires clé-valeur représentant les champs à mettre à jour. Les clés doivent être parmi
+        'title', 'location', 'taskDate', 'status', 'description'.
+        """
         for field, value in kwargs.items():
             if field in ['title', 'location', 'taskDate', 'status', 'description']:
                 setattr(self, field, value)
