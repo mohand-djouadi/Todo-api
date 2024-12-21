@@ -73,6 +73,7 @@ def signUp(request):
         return JsonResponse({'error': 'methode HTTP non autoriser'}, status=405)
 
 @login_required
+@csrf_exempt
 @jwt_required
 def change_password(request):
     if request.method == 'PUT':
