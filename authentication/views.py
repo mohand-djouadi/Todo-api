@@ -72,6 +72,7 @@ def signUp(request):
     else:
         return JsonResponse({'error': 'methode HTTP non autoriser'}, status=405)
 
+
 @login_required
 @csrf_exempt
 @jwt_required

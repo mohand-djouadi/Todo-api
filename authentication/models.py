@@ -4,13 +4,20 @@ from django.contrib.auth.models import AbstractBaseUser,BaseUserManager
 class CustomUserManager(BaseUserManager):
 
 
-    def create_user(self, username, first_name, last_name, email, password):
+    def create_user(self, username, first_name, last_name, email, password, quest_label, sec_answ):
         if username == '' or first_name == '' or last_name == '' or email == '' or password == '':
             raise ValueError('required fields are missing')
         if self.model.objects.filter(username=username).exists():
             raise ValueError('username already userd')
         email = self.normalize_email(email)
-        user = self.model(username=username, email=email, first_name=first_name, last_name=last_name)
+        user = self.model(
+            username=username,
+            email=email,
+            first_name=first_name,
+            last_name=last_name,
+            security_answ=sec_answ,
+            security_quest=User.get_security_quest_value(quest_label)
+        )
         user.set_password(password)  # Hachage automatique du mot de passe
         user.save(using=self._db)
         return user
@@ -51,4 +58,9 @@ class User(AbstractBaseUser):
 
     objects = CustomUserManager()
 
-
+    @classmethod
+    def get_security_quest_value(cls, label):
+        quest_dict = dict(cls.CHOICES_QUEST)
+        for key, value in quest_dict.items():
+            if value == label:
+                return key
