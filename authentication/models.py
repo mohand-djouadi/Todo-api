@@ -45,8 +45,8 @@ class User(AbstractBaseUser):
     last_name = models.CharField(max_length=50, blank=False, null=False)
     email = models.EmailField(unique=True)
     password = models.CharField(max_length=128)
-    security_quest = models.CharField(max_length=50, choices=CHOICES_QUEST, blank=True, null=True)
-    security_answ = models.CharField(max_length=50, blank=True, null=True)
+    security_quest = models.CharField(max_length=50, choices=CHOICES_QUEST, blank=False, null=False)
+    security_answ = models.CharField(max_length=50, blank=False, null=False)
     date_joined = models.DateTimeField(auto_now_add=True)
 
     USERNAME_FIELD = 'username'
