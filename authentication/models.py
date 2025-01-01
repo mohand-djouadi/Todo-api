@@ -60,3 +60,10 @@ class User(AbstractBaseUser):
         for key, value in quest_dict.items():
             if value == label:
                 return key
+
+    @classmethod
+    def get_Security_quest_label(cls, quest):
+        quest_dict = dict(cls.CHOICES_QUEST)
+        for key, value in quest_dict.items():
+            if key == quest:
+                return value

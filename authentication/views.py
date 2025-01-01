@@ -27,7 +27,8 @@ def logIn(request):
                     'email': user.email,
                     'first_name': user.first_name,
                     'last_name': user.last_name,
-                    'token': token
+                    'token': token,
+                    'security_quest': User.get_Security_quest_label(user.security_quest)
                 }
                 response = JsonResponse(user_data, status=200)
                 return response
@@ -66,6 +67,7 @@ def signUp(request):
             login(request, user)
             userData = model_to_dict(User.objects.get(username=user.username))
             userData['token'] = token
+            userData['security_quest'] = security_quest
             response = JsonResponse(userData, status=200)
             return response
         except json.JSONDecodeError:
