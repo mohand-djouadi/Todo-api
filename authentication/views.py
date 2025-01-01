@@ -1,4 +1,5 @@
 from django.contrib.auth import authenticate,login,logout
+from django.db.models import Q
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt,csrf_protect
 from django.contrib.auth.decorators import login_required
@@ -51,32 +52,36 @@ def signUp(request):
             password = userInputs.get('password', '')
             security_quest = userInputs.get('security_quest', '')
             security_answ = userInputs.get('security_answ', '')
-            user = User.objects.create_user(
-                username=username,
-                first_name=first_name,
-                last_name=last_name,
-                email=email,
-                password=password,
-                quest_label=security_quest,
-                sec_answ=security_answ
-            )
-            user.full_clean()
-            user.save()
-            token = generate_token(user)
-            print(f"Token CSRF généré: {token}")
-            login(request, user)
-            userData = model_to_dict(User.objects.get(username=user.username))
-            userData['security_quest'] = security_quest
-            userData['token'] = token
-            response = JsonResponse(userData, status=200)
-            return response
+            existUser = User.objects.filter(Q(email=email) | Q(username=username))
+            if len(existUser) == 0:
+                user = User.objects.create_user(
+                    username=username,
+                    first_name=first_name,
+                    last_name=last_name,
+                    email=email,
+                    password=password,
+                    quest_label=security_quest,
+                    sec_answ=security_answ
+                )
+                user.full_clean()
+                user.save()
+                token = generate_token(user)
+                print(f"Token CSRF généré: {token}")
+                login(request, user)
+                userData = model_to_dict(User.objects.get(username=user.username))
+                userData['security_quest'] = security_quest
+                userData['token'] = token
+                response = JsonResponse(userData, status=200)
+                return response
+            else:
+                return JsonResponse({'error': 'username or email already used'}, status=400)
         except json.JSONDecodeError:
-            return JsonResponse({'error': 'format de donnee invalid'}, status=400)
+            return JsonResponse({'error': 'invalid data format'}, status=400)
         except ValidationError as e:
             error = dict(e)
             return JsonResponse({'error': error}, status=400)
     else:
-        return JsonResponse({'error': 'methode HTTP non autoriser'}, status=405)
+        return JsonResponse({'error': 'HTTP method not allowed'}, status=405)
 
 
 @login_required
