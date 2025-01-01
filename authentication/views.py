@@ -48,12 +48,16 @@ def signUp(request):
             last_name = userInputs.get('last_name', '')
             email = userInputs.get('email', '')
             password = userInputs.get('password', '')
+            security_quest = userInputs.get('security_quest', '')
+            security_answ = userInputs.get('security_answ', '')
             user = User.objects.create_user(
                 username=username,
                 first_name=first_name,
                 last_name=last_name,
                 email=email,
-                password=password
+                password=password,
+                quest_label=security_quest,
+                sec_answ=security_answ
             )
             user.full_clean()
             user.save()
