@@ -27,7 +27,8 @@ def logIn(request):
                     'email': user.email,
                     'first_name': user.first_name,
                     'last_name': user.last_name,
-                    'token': token
+                    'token': token,
+                    'security_quest': user.get_security_quest_label(user.security_quest)
                 }
                 response = JsonResponse(user_data, status=200)
                 return response
@@ -65,6 +66,7 @@ def signUp(request):
             print(f"Token CSRF généré: {token}")
             login(request, user)
             userData = model_to_dict(User.objects.get(username=user.username))
+            userData['security_quest'] = security_quest
             userData['token'] = token
             response = JsonResponse(userData, status=200)
             return response
