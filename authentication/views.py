@@ -28,7 +28,7 @@ def logIn(request):
                     'first_name': user.first_name,
                     'last_name': user.last_name,
                     'token': token,
-                    'security_quest': user.get_security_quest_label(user.security_quest)
+                    'security_quest': User.get_Security_quest_label(user.security_quest)
                 }
                 response = JsonResponse(user_data, status=200)
                 return response
