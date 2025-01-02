@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vérification de votre code OTP</title>
+</head>
+<body>
+    <h2>Bonjour {{ user.first_name }},</h2>
+    <p>Voici votre code de vérification pour accéder à votre compte :</p>
+    <h3>{{ otp }}</h3>
+    <p>Ce code expirera dans 10 minutes. Si vous n'avez pas demandé ce code, veuillez ignorer cet email.</p>
+    <p>Cordialement, <br> L'équipe de votre service</p>
+</body>
+</html>

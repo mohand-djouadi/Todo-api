@@ -52,6 +52,8 @@ class User(AbstractBaseUser):
     security_quest = models.CharField(max_length=50, choices=CHOICES_QUEST, blank=False, null=False)
     security_answ = models.CharField(max_length=50, blank=False, null=False)
     date_joined = models.DateTimeField(auto_now_add=True)
+    otp = models.CharField(max_length=6, blank=True, null=True)
+    otp_expiry = models.DateTimeField(blank=True, null=True)
 
     USERNAME_FIELD = 'username'
     REQUIRED_FIELDS = ['email', 'first_name', 'last_name']

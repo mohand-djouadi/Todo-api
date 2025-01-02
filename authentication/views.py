@@ -1,6 +1,9 @@
+from django.conf import settings
 from django.contrib.auth import authenticate,login,logout
+from django.core.mail import send_mail
 from django.db.models import Q
 from django.http import JsonResponse
+from django.template.loader import render_to_string
 from django.views.decorators.csrf import csrf_exempt,csrf_protect
 from django.contrib.auth.decorators import login_required
 from django.core.exceptions import ValidationError
@@ -8,6 +11,9 @@ from django.forms.models import model_to_dict
 from authentication.models import User
 from authentication.Jwt import generate_token, jwt_required
 import json
+from random import randint
+import datetime
+from django.utils import timezone
 
 
 @csrf_exempt
@@ -82,6 +88,37 @@ def signUp(request):
             return JsonResponse({'error': error}, status=400)
     else:
         return JsonResponse({'error': 'HTTP method not allowed'}, status=405)
+
+
+def get_OTP(request):
+    if request.method == 'GET':
+        email = request.GET.get('email')
+        if not email:
+            return JsonResponse({'error':'email parameter is required'}, status=400)
+        else:
+            try:
+                otp = ''.join([str(randint(0, 9)) for i in range(6)])
+                user = User.objects.get(email=email)
+                user.otp = otp
+                user.otp_expiry = timezone.now() + datetime.timedelta(minutes=10)
+                user.save()
+                subject = 'Votre code de vérification OTP'
+                plain_message = 'Votre code de vérification est : ' + otp
+                html_message = render_to_string('email.html', {'user': user, 'otp': otp})
+                print('before send mail')
+                send_mail(
+                    subject, # Message en texte brut
+                    plain_message,
+                    settings.EMAIL_HOST_USER,  # L'adresse email de l'expéditeur
+                    [email],  # L'adresse email du destinataire
+                    html_message=html_message,  # Message HTML
+                )
+                print('after send mail')
+                return JsonResponse({'message': 'OTP sent successfully'}, status=200)
+            except User.DoesNotExist:
+                return JsonResponse({'error':'email not exist'}, error=404)
+    else:
+        return JsonResponse({'error':'HTTP method not allowed'}, status=405)
 
 
 @login_required
