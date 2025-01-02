@@ -1,3 +1,5 @@
+from django.utils.timezone import localtime
+
 from django.conf import settings
 from django.contrib.auth import authenticate,login,logout
 from django.core.mail import send_mail
@@ -105,7 +107,6 @@ def get_OTP(request):
                 subject = 'Votre code de vérification OTP'
                 plain_message = 'Votre code de vérification est : ' + otp
                 html_message = render_to_string('email.html', {'user': user, 'otp': otp})
-                print('before send mail')
                 send_mail(
                     subject, # Message en texte brut
                     plain_message,
@@ -113,13 +114,48 @@ def get_OTP(request):
                     [email],  # L'adresse email du destinataire
                     html_message=html_message,  # Message HTML
                 )
-                print('after send mail')
                 return JsonResponse({'message': 'OTP sent successfully'}, status=200)
             except User.DoesNotExist:
                 return JsonResponse({'error':'email not exist'}, error=404)
     else:
         return JsonResponse({'error':'HTTP method not allowed'}, status=405)
 
+
+def validate_otp(request):
+    if request.method == 'POST':
+        try:
+            email = request.GET.get('email')
+            otp = json.loads(request.body).get('otp', '')
+            if otp != '' or email:
+                try:
+                    user = User.objects.get(email=email)
+                except User.DoesNotExist:
+                    return JsonResponse({'error': 'User not found'}, status=404)
+                print('user', user.username)
+                print("now", localtime(timezone.now()))
+                print("otp expiry",  localtime(user.otp_expiry))
+                print("is otp not expired ",localtime(timezone.now()) < localtime(user.otp_expiry))
+                if localtime(timezone.now()) < localtime(user.otp_expiry):
+                    if user.otp == otp:
+                        user.otp = None
+                        user.otp_expiry = None
+                        print('before save')
+                        user.save()
+                        print('after save')
+                        return JsonResponse({'message':'otp verified succesfully'}, status=200)
+                    else:
+                        return JsonResponse({'error':'otp is not valide'}, status=400)
+                else:
+                    return JsonResponse({'error':'otp is expired'}, status=400)
+            else:
+                return JsonResponse({'error':'otp and email is required'}, status=404)
+        except json.JSONDecodeError:
+            return JsonResponse({'error': 'invalid data format'}, status=400)
+        except ValidationError as e:
+            error = dict(e)
+            return JsonResponse({'error': error}, status=400)
+    else:
+        return JsonResponse({'error','HTTP method not allowed'}, status=405)
 
 @login_required
 @csrf_exempt
