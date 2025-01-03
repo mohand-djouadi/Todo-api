@@ -46,5 +46,5 @@ class Comment(models.Model):
     class Meta:
         db_table = 'comments'
     content = models.CharField(max_length=1200, blank=False, null=False)
-    createdAt = models.DateTimeField(blank=False, null=False)
+    createdAt = models.DateTimeField(auto_now_add=True, blank=False, null=False)
     task = models.ForeignKey(Task, null=True, on_delete=models.CASCADE)
