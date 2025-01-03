@@ -1,3 +1,4 @@
+from django.db.models import Q
 from django.forms import model_to_dict
 
 from taskManagement.models import Task
@@ -17,13 +18,28 @@ def get_tasks(request):
     if request.method == 'GET':
         try:
             tasks = Task.objects.filter(user=request.user)
-            tasks_data = [{'id': task.id, 'title': task.title, 'location':task.location, 'description': task.description, 'status': task.status}
+            tasks_data = [{'id': task.id, 'title': task.title, 'task_date':task.taskDate, 'description': task.description, 'status': task.status}
                           for task in tasks]
             return JsonResponse({'tasks':tasks_data}, status=200)
         except json.JSONDecodeError:
             return JsonResponse({'error':'format JSON inccorect'}, status=400)
     else:
         return JsonResponse({'error':'methode HTTP non autoriser'}, status=405)
+
+@login_required
+@csrf_exempt
+@jwt_required
+def get_task(request, id):
+    if request.method == 'GET':
+        task = Task.objects.get(id=id)
+        print("task : ", task)
+        comments = Comment.objects.filter(task_id=id)
+        comments_data = [ { "content":comment.content, "createdAt": comment.createdAt } for comment in comments ]
+        task_data = model_to_dict(task)
+        task_data.update({"comments": comments_data})
+        return JsonResponse(task_data, status=200)
+    else:
+        return JsonResponse({'error':'HTTP method not allowed'}, status=405)
 
 @login_required
 @csrf_exempt
@@ -55,6 +71,17 @@ def edit_task(request,id):
         try:
             taskToEdit = json.loads(request.body)
             currentTask = Task.objects.get(id=id)
+            if (
+                taskToEdit.get('status','') in ('Pending', 'On hold', 'Canceled')
+                and 'comment' not in taskToEdit.keys()
+            ):
+                return JsonResponse({'error':'comment is required for this status : Canceled, On hold, Pending'}, status=400)
+            if taskToEdit.get('status') in ('Pending', 'On hold', 'Canceled'):
+                comment = Comment.objects.create(
+                    content=taskToEdit.get('comment'),
+                    task=currentTask
+                )
+                comment.save()
             currentTask.update_fields(**taskToEdit)
             currentTask.save()
             updatedTask = model_to_dict(currentTask)
@@ -104,7 +131,6 @@ def addCommentToTask(request, id):
             task = get_object_or_404(Task, id=id)
             comment = Comment.objects.create(
                 content=commentData.get("content", ""),
-                createdAt=createdAt,
                 task=task
             )
             comment.save()

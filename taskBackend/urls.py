@@ -12,6 +12,7 @@ urlpatterns = [
     path('auth/verifie_otp', authentication.views.validate_otp, name='validate-otp'),
     path('auth/logout', authentication.views.logOut, name='logout'),
     path('task/', taskManagement.views.get_tasks, name='get-tasks'),
+    path('task/<int:id>', taskManagement.views.get_task, name='get-task'),
     path('task/add/', taskManagement.views.add_task, name='add-task'),
     path('task/edit/<int:id>', taskManagement.views.edit_task, name='edit-task'),
     path('task/delete/<int:id>', taskManagement.views.delete_task, name='delete-task'),
