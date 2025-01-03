@@ -160,24 +160,17 @@ def validate_otp(request):
 @login_required
 @csrf_exempt
 @jwt_required
-def change_password(request):
-    if request.method == 'PUT':
-        try:
-            userInuputs = json.loads(request.body)
-            currentPassword = userInuputs.get('current_password', '')
-            newPassword = userInuputs.get('new_password', '')
-            confirmPasssword = userInuputs.get('confirmation', '')
-            if not request.user.check_password(currentPassword):
-                return JsonResponse({'error': 'le mot de pass actuelle est incorrect'}, status=400)
-            if newPassword == confirmPasssword:
-                request.user.set_password(newPassword)
-                return JsonResponse({'message':'mot de pass changer avec succes'}, status=201)
-            else:
-                return JsonResponse({'error': 'mot de pass ne pas confirmer'}, status=400)
-        except json.JSONDecodeError:
-            return JsonResponse({'error':'donnee JSON invalide'}, status=400)
-    else:
-        return JsonResponse({'eror':'methode HTTP non autoriser'}, status=405)
+def reset_password(request):
+    return reset_or_forgot_password(request, request.user)
+
+@csrf_exempt
+def forgot_password(request):
+    email = request.GET.get('email')
+    try:
+        user = User.objects.get(email=email)
+    except User.DoesNotExist:
+        return JsonResponse({'error': 'User not found'}, status=404)
+    return reset_or_forgot_password(request, user)
 
 @login_required
 @csrf_exempt
@@ -191,3 +184,23 @@ def logOut(request):
     except Exception as e:
         print(f"Error during logout: {e}")
     return JsonResponse({'error': 'Logout failed'}, status=500)
+
+def reset_or_forgot_password(request, user):
+    if request.method == 'PUT':
+        try:
+            userInuputs = json.loads(request.body)
+            currentPassword = userInuputs.get('current_password', '')
+            newPassword = userInuputs.get('new_password', '')
+            confirmPasssword = userInuputs.get('confirmation', '')
+            if not user.check_password(currentPassword):
+                return JsonResponse({'error': 'le mot de pass actuelle est incorrect'}, status=400)
+            if newPassword == confirmPasssword:
+                user.set_password(newPassword)
+                user.save()
+                return JsonResponse({'message':'mot de pass changer avec succes'}, status=201)
+            else:
+                return JsonResponse({'error': 'mot de pass ne pas confirmer'}, status=400)
+        except json.JSONDecodeError:
+            return JsonResponse({'error':'donnee JSON invalide'}, status=400)
+    else:
+        return JsonResponse({'eror':'methode HTTP non autoriser'}, status=405)

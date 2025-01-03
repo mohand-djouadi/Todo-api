@@ -1,4 +1,3 @@
-from django.contrib import admin
 from django.urls import path
 
 import authentication.views
@@ -7,7 +6,8 @@ import taskManagement.views
 urlpatterns = [
     path('auth/login', authentication.views.logIn, name='login'),
     path('auth/signup', authentication.views.signUp, name='signup'),
-    path('auth/change_password', authentication.views.change_password, name='change-password'),
+    path('auth/change_password', authentication.views.reset_password, name='change-password'),
+    path('auth/forgot_password', authentication.views.forgot_password, name='forgot-password'),
     path('auth/generate_otp', authentication.views.get_OTP, name='get-otp'),
     path('auth/verifie_otp', authentication.views.validate_otp, name='validate-otp'),
     path('auth/logout', authentication.views.logOut, name='logout'),
