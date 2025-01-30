@@ -168,7 +168,7 @@ def validate_answer(request):
                     if answer == user.security_answ:
                         return JsonResponse({'message':'answer validated successfully'}, status=200)
                     else:
-                        JsonResponse({'error': 'wrong answer'}, status=400)
+                        return JsonResponse({'error': 'wrong answer'}, status=400)
                 except User.DoesNotExist:
                     return JsonResponse({'error':'email not exist'}, status=404)
         except json.JSONDecodeError:
@@ -184,16 +184,47 @@ def validate_answer(request):
 @csrf_exempt
 @jwt_required
 def reset_password(request):
-    return reset_or_forgot_password(request, request.user)
+    if request.method == 'PUT':
+        try:
+            userInuputs = json.loads(request.body)
+            currentPassword = userInuputs.get('current_password', '')
+            newPassword = userInuputs.get('new_password', '')
+            confirmPasssword = userInuputs.get('confirmation', '')
+            if not request.user.check_password(currentPassword):
+                return JsonResponse({'error': 'le mot de pass actuelle est incorrect'}, status=400)
+            if newPassword == confirmPasssword:
+                request.user.set_password(newPassword)
+                request.user.save()
+                return JsonResponse({'message': 'mot de pass changer avec succes'}, status=201)
+            else:
+                return JsonResponse({'error': 'mot de pass ne pas confirmer'}, status=400)
+        except json.JSONDecodeError:
+            return JsonResponse({'error': 'donnee JSON invalide'}, status=400)
+    else:
+        return JsonResponse({'eror': 'methode HTTP non autoriser'}, status=405)
 
 @csrf_exempt
 def forgot_password(request):
-    email = request.GET.get('email')
-    try:
-        user = User.objects.get(email=email)
-    except User.DoesNotExist:
-        return JsonResponse({'error': 'User not found'}, status=404)
-    return reset_or_forgot_password(request, user)
+    if request.method == 'PUT':
+        try:
+            email = request.GET.get('email')
+            user = User.objects.get(email=email)
+            userInputs = json.loads(request.body)
+            newPassword = userInputs.get('new_password', '')
+            confirm = userInputs.get('confirmation', '')
+            if email:
+                if newPassword == confirm:
+                    user.set_password(newPassword)
+                    user.save()
+                    return JsonResponse({'message': 'password changed successfully'}, status=201)
+                else:
+                    return JsonResponse({'error': 'password not confirmed'}, status=400)
+        except User.DoesNotExist:
+            return JsonResponse({'error':'email not exist'}, status=404)
+        except json.JSONDecodeError:
+            return JsonResponse({'error':'donnee JSON invalide'}, status=400)
+    else:
+        return JsonResponse({'eror':'methode HTTP non autoriser'}, status=405)
 
 @login_required
 @csrf_exempt
@@ -208,22 +239,4 @@ def logOut(request):
         print(f"Error during logout: {e}")
     return JsonResponse({'error': 'Logout failed'}, status=500)
 
-def reset_or_forgot_password(request, user):
-    if request.method == 'PUT':
-        try:
-            userInuputs = json.loads(request.body)
-            currentPassword = userInuputs.get('current_password', '')
-            newPassword = userInuputs.get('new_password', '')
-            confirmPasssword = userInuputs.get('confirmation', '')
-            if not user.check_password(currentPassword):
-                return JsonResponse({'error': 'le mot de pass actuelle est incorrect'}, status=400)
-            if newPassword == confirmPasssword:
-                user.set_password(newPassword)
-                user.save()
-                return JsonResponse({'message':'mot de pass changer avec succes'}, status=201)
-            else:
-                return JsonResponse({'error': 'mot de pass ne pas confirmer'}, status=400)
-        except json.JSONDecodeError:
-            return JsonResponse({'error':'donnee JSON invalide'}, status=400)
-    else:
-        return JsonResponse({'eror':'methode HTTP non autoriser'}, status=405)
+
