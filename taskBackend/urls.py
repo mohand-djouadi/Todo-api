@@ -10,6 +10,7 @@ urlpatterns = [
     path('auth/forgot_password', authentication.views.forgot_password, name='forgot-password'),
     path('auth/generate_otp', authentication.views.get_OTP, name='get-otp'),
     path('auth/verifie_otp', authentication.views.validate_otp, name='validate-otp'),
+    path('auth/verifie_sec_answer', authentication.views.validate_answer,name='validate_answer'),
     path('auth/logout', authentication.views.logOut, name='logout'),
     path('task/', taskManagement.views.get_tasks, name='get-tasks'),
     path('task/<int:id>', taskManagement.views.get_task, name='get-task'),

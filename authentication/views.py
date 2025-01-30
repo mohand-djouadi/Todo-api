@@ -1,7 +1,7 @@
 from django.utils.timezone import localtime
 
 from django.conf import settings
-from django.contrib.auth import authenticate,login,logout
+from django.contrib.auth import authenticate, login, logout, update_session_auth_hash
 from django.core.mail import send_mail
 from django.db.models import Q
 from django.http import JsonResponse
@@ -116,7 +116,7 @@ def get_OTP(request):
                 )
                 return JsonResponse({'message': 'OTP sent successfully'}, status=200)
             except User.DoesNotExist:
-                return JsonResponse({'error':'email not exist'}, error=404)
+                return JsonResponse({'error':'email not exist'}, status=404)
     else:
         return JsonResponse({'error':'HTTP method not allowed'}, status=405)
 
@@ -154,6 +154,29 @@ def validate_otp(request):
         except ValidationError as e:
             error = dict(e)
             return JsonResponse({'error': error}, status=400)
+    else:
+        return JsonResponse({'error','HTTP method not allowed'}, status=405)
+
+def validate_answer(request):
+    if request.method == 'POST':
+        try:
+            email = request.GET.get('email')
+            answer = json.loads(request.body).get('answer', '')
+            if answer != '' and email:
+                try:
+                    user = User.objects.get(email=email)
+                    if answer == user.security_answ:
+                        return JsonResponse({'message':'answer validated successfully'}, status=200)
+                    else:
+                        JsonResponse({'error': 'wrong answer'}, status=400)
+                except User.DoesNotExist:
+                    return JsonResponse({'error':'email not exist'}, status=404)
+        except json.JSONDecodeError:
+            return JsonResponse({'error': 'invalid data format'}, status=400)
+        except ValidationError as e:
+            error = dict(e)
+            return JsonResponse({'error': error}, status=400)
+
     else:
         return JsonResponse({'error','HTTP method not allowed'}, status=405)
 
