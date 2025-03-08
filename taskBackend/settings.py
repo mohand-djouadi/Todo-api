@@ -22,17 +22,7 @@ import environ
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-env = environ.Env(
-    DEBUG=(bool, False)
-)
-
-ENV = env('ENV', default='dev')
-env_file = os.path.join(BASE_DIR, f'.env.{ENV}')
-environ.Env.read_env(env_file)
-
-print(f"Running with environment: {ENV}")
 print(f"SECRET_KEY: {config('SECRET_KEY')}")
-print(f"DEBUG: {env('DEBUG')}")
 print(f"ALLOWED_HOSTS: {config('LOCAL_FRONT_HOST')}, {config('RENDER_HOST')}")
 
 # SECURITY WARNING: keep the secret key used in production secret!
@@ -54,16 +44,6 @@ CORS_ALLOWED_ORIGINS = [
 
 CORS_ALLOW_CREDENTIALS = True
 
-CSRF_TRUSTED_ORIGINS = [
-    config('HTTPS_RENDER_URL'),
-    config('HTTP_RENDER_URL'),
-    config('LOCAL_FRONT_URL')
-]
-
-CSRF_HEADER_NAME = 'HTTP_X_CSRFTOKEN'
-CSRF_COOKIE_SECURE = True
-CSRF_COOKIE_HTTPONLY = False
-CSRF_USE_SESSIONS = False
 # Application definition
 
 INSTALLED_APPS = [
@@ -83,7 +63,6 @@ MIDDLEWARE = [
     "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -95,16 +74,10 @@ LOGGING = { 'version': 1, 'disable_existing_loggers': False, 'handlers': { 'file
 
 ROOT_URLCONF = 'taskBackend.urls'
 
-
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),  # Assurez-vous que ce chemin est bon
-]
-
-
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, "templates")],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -123,23 +96,12 @@ WSGI_APPLICATION = 'taskBackend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-if ENV == 'prod':
-    DATABASES = {
-        'default': dj_database_url.config(
-            default=config('DATABASE_URI')
-        )
-    }
-elif ENV == 'dev':
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': config('DB_NAME'),
-            'USER': config('DB_USER'),
-            'PASSWORD': config('DB_PASSWORD'),
-            'HOST': config('DB_HOST'),
-            'PORT': config('DB_PORT')
-        }
-    }
+
+DATABASES = {
+    'default': dj_database_url.config(
+        default=config('DATABASE_URI')
+    )
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -162,11 +124,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
-
-USE_I18N = True
-
-USE_L10N = True
+TIME_ZONE = 'Etc/GMT-1'
 
 USE_TZ = True
 
@@ -185,7 +143,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'authentication.User'
 
-#SMTP gmail configuration
+
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587

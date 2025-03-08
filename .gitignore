@@ -4,4 +4,3 @@ db.sqlite3
 .idea
 .env.prod
 .env.dev
-taskBackend/settings.py
