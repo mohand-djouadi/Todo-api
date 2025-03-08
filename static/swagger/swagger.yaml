@@ -4,8 +4,8 @@ info:
   description: "Documentation de l'API TODO creer avec Django avec deux application django authentication pour gerer les fonctionnaliter utilisateur login, signup, logout, identification avec question de security ou otp pour forgot password et changer password si il est authentifier et application taskManagement pour la gestion des tache et ces different operation CRUD et leur commentaires avec une authentification avec un token JWT"
   version: "1.0.0"
 servers:
-  - url: http://127.0.0.1:8000
-    description: Serveur local
+  - url: https://todo-api-eeh0.onrender.com
+    description: render server
 components:
   securitySchemes:
     BearerAuth:
