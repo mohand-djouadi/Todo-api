@@ -1,0 +1,912 @@
+openapi: 3.0.0
+info:
+  title: Todo API Documentation
+  description: "Documentation de l'API TODO creer avec Django avec deux application django authentication pour gerer les fonctionnaliter utilisateur login, signup, logout, identification avec question de security ou otp pour forgot password et changer password si il est authentifier et application taskManagement pour la gestion des tache et ces different operation CRUD et leur commentaires avec une authentification avec un token JWT"
+  version: "1.0.0"
+servers:
+  - url: http://127.0.0.1:8000
+    description: Serveur local
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+paths:
+  /auth/login:
+    post:
+      summary: "test authentification login"
+      description: "Renvoie un object avec les info du user authentifier avec son token JWT"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                  example: "juba.djouadi"
+                password:
+                  type: string
+                  example: "Juba@8002"
+      responses:
+        "200":
+          description: "Succès"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    format: int64
+                    example: 3
+                  username:
+                    type: string
+                    example: "juba.djouadi"
+                  first_name:
+                    type: string
+                    example: "juba"
+                  last_name:
+                    type: string
+                    example: "djouadi"
+                  token:
+                    type: string
+                    example: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInVzZXJuYW1lIjoianViYS5kam91YWRpIiwiZXhwIjoxNzQxMjgwMjI3LCJpYXQiOjE3NDExOTM4Mjd9.l_n3BFRcheHTwOZnGjbpdJ01xkbznCBUaDpWNhflWIo"
+                  security_quest:
+                    type: string
+                    example: "what is your first animal companion"
+        "401":
+          description: "user not find"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Nom d'utilisateur ou mot de passe incorrect"
+        "400":
+          description: "fomat de donnees incorrect"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Format de données JSON incorrect"
+  /auth/signup:
+    post:
+      summary: "test signup"
+      description: "Renvoie un object avec les info du user authentifier avec son token JWT"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                first_name:
+                  type: string
+                  example: "aghis"
+                last_name:
+                  type: string
+                  example: "djouadi"
+                email:
+                  type: string
+                  example: "djouadiaris12@gmail.com"
+                username:
+                  type: string
+                  example: "aghis.djouadi"
+                password:
+                  type: string
+                  example: "Aghis.123"
+                security_quest:
+                  type: string
+                  example: "what is your first animal companion"
+                security_answ:
+                  type: string
+                  example: "cat"
+
+      responses:
+        "200":
+          description: "Success"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    format: int64
+                    example: 14
+                  last_login:
+                    type: string
+                    example: "2025-03-05T17:32:03.053Z"
+                  username:
+                    type: string
+                    example: "aghissss.djouadi"
+                  first_name:
+                    type: string
+                    example: "aghis"
+                  last_name:
+                    type: string
+                    example: "djouadi"
+                  email:
+                    type: string
+                    example: "djouadiaris12@outlook.com"
+                  password:
+                    type: string
+                    example: "pbkdf2_sha256$870000$rizaUWfaP4qaOqhPklgxYz$57FTwmQjrxQd/4C14kbQAljDrscS09eowP1YirLxKJU="
+                  security_quest:
+                    type: string
+                    example: "what is your first animal companion"
+                  security_answ:
+                    type: string
+                    example: "cat"
+                  token:
+                    type: string
+                    example: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTQsInVzZXJuYW1lIjoiYWdoaXNzc3MuZGpvdWFkaSIsImV4cCI6MTc0MTI4MjMyMywiaWF0IjoxNzQxMTk1OTIzfQ.M7VlnykY7iN3la0lewXmPqfHUrBUjPWR5WQ3uHDlMmI"
+        "400":
+          description: "username ou email deja utiliser"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+              examples:
+                username_used:
+                  summary: "username or email deja utiliser"
+                  value:
+                    error: "Le champ username et password sont requis."
+                invalid_format:
+                  summary: "format de donnees invalides"
+                  value:
+                    error: "invalid data format"
+  /auth/generate_otp:
+    post:
+      summary: "test otp generation"
+      description: "Envoie un otp a email saisie en param et envoie message de success"
+      parameters:
+        - name: email
+          in: query
+          description: email pour envoie otp
+          required: true
+          schema:
+            type: string
+            example: "mohand@gmail.com"
+      responses:
+        "200":
+          description: "Success"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "OTP sent successfully"
+        "400":
+          description: "email not received"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "email parameter is required"
+        "401":
+          description: "email not exist"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "email not exist"
+        "405":
+          description: "method HTTP incorrect"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "HTTP method not allowed"
+  /auth/verifie_otp:
+    post:
+      summary: "test otp validation"
+      description: "validater l'otp envoie par user"
+      parameters:
+        - name: email
+          in: query
+          description: email qui a recu otp
+          required: true
+          schema:
+            type: string
+            example: "mohand@gmail.com"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                otp:
+                  type: string
+                  example: "321456"
+      responses:
+        "200":
+          description: "otp validated"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "otp verified succesfully"
+        "400":
+          description: "error messages"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  type: string
+              examples:
+                otp_not_valide:
+                  summary: "otp is not valid"
+                  value:
+                    error: "otp is not valide"
+                otp_expired:
+                  summay: "otp expired"
+                  value:
+                    error: "otp is expired"
+                invalid_format:
+                  summary: "format de donnees invalid"
+                  value:
+                    error: "invalid data format"
+        "404":
+          description: "entity requis manquantes"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+              examples:
+                user_not_found:
+                  summary: "no user with the email"
+                  value:
+                    error: "User not found"
+                email_otp_missing:
+                  summary: "email or otp missinf"
+                  value:
+                    error: "otp and email is required"
+        "405":
+          description: "method HTTP incoorect"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "HTTP method not allowed"
+  /auth/verifie_sec_answer:
+    post:
+      summary: "valider la reponse de security"
+      description: "identifier en repondont sur la question choisi lors du l'inscription"
+      parameters:
+        - name: email
+          in: query
+          description: email qui a recu otp
+          required: true
+          schema:
+            type: string
+            example: "mohand@gmail.com"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                answer:
+                  type: string
+                  example: "cat"
+      responses:
+        "200":
+          description: "Success"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "answer validated successfully"
+        "404":
+          description: "pas de user avec cette email"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "email not exist"
+        "400":
+          description: "reponse ou fromat de donnees invalid"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: object
+              examples:
+                wrong_answer:
+                  summary: "reponse non valider"
+                  value:
+                    error: "wrong answer"
+                format_invalid:
+                  summary: "format de donnees invalid"
+                  value:
+                    error: "invalid data format"
+        "405":
+          desciption: "method HTTP incorrect"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "HTTP method not allowed"
+  /auth/forgot_password:
+    put:
+      summary: "forgot password"
+      description: "utiliser dans pour chager le mot de passe apres identifier"
+      parameters:
+        - name: email
+          in: query
+          description: email qui a recu otp
+          required: true
+          schema:
+            type: string
+            example: "mohand@gmail.com"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                new_password:
+                  type: string
+                  example: "Mohand@1234"
+                confirmation:
+                  type: string
+                  example: "Mohand@1234"
+      responses:
+        "201":
+          description: "Success"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "password changed successfully"
+        "400":
+          description: "erreur de confirmation ou donnees invalid"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+              examples:
+                not_confrimed:
+                  summary: "password non confirmed"
+                  value:
+                    error: "password not confirmed"
+                invalid_data:
+                  summary: "format de donnees invalid"
+                  value:
+                    error: "donnee JSON invalide"
+        "404":
+          description: "pas de user avec cette email"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "email not exist"
+        "405":
+          description: "method HTTP non autoriser"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "methode HTTP non autoriser"
+  /auth/change_password:
+    put:
+      summary: "change password"
+      descirption: "modifier le password par un user connecter"
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                current_password:
+                  type: string
+                  example: "mohAND@2002"
+                new_password:
+                  type: string
+                  example: "Mohand@123"
+                confirmation:
+                  type: string
+                  example: "Mohand@123"
+      responses:
+        "201":
+          description: "Success"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: object
+                    example: "mot de pass changer avec succes"
+        "400":
+          summary: "current password incorrect"
+          descirption: "le mot actuelle est incorrect"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+              examples:
+                password_incorrect:
+                  summary: "current password incorrect"
+                  value:
+                    error: le mot de pass actuelle est incorrect"
+                password_not_confirmed:
+                  summary: "password not confirmed"
+                  value:
+                    error: "mot de pass ne pas confirmer"
+                format_invalid:
+                  summary: "format invalid"
+                  value:
+                    error: "donnee JSON invalide"
+        "405":
+          description: "method HTTP non autorizer"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "methode HTTP non autoriser"
+  /auth/logout:
+    post:
+      summary: "logout"
+      description: "requete pour deconnecter"
+      security:
+        - BearerAuth: []
+  /task/:
+    get:
+      summary: "get task"
+      descirption: "fetch le task du user connecter"
+      security:
+        - BearerAuth: []
+      responses:
+        "200":
+          description: "Success"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  tasks:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          format: int64
+                          example: 3
+                        title:
+                          type: string
+                          example: "team meeting"
+                        task_date:
+                          type: string
+                          example: "2025-03-05 14:30:45"
+                        description:
+                          type: string
+                          example: "reunion google meet pour discuter le projet"
+                        status:
+                          type: string
+                          example: "Not Started"
+        "400":
+          description: "format de donnees invalid"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "format JSON inccorect"
+        "405":
+          desciption: "method HTTP non autorizer"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "methode HTTP non autoriser"
+  /task/{id}:
+    get:
+      summary: "get task by id"
+      description: "get task details by id"
+      security:
+        - BearerAuth: []
+      responses:
+        "200":
+          description: "Success"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    format: int64
+                    example: 3
+                  title:
+                    type: string
+                    example: "team meeting"
+                  task_date:
+                    type: string
+                    example: "2025-03-05 14:30:45"
+                  description:
+                    type: string
+                    example: "reunion google meet pour discuter le projet"
+                  status:
+                    type: string
+                    example: "Not Started"
+                  comments:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        content:
+                          type: string
+                          example: "canceld because cancel the meeting"
+                        createdAt:
+                          type: string
+                          example: "2025-03-05 14:30:45"
+        "405":
+          description: "format donnees invalid"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "HTTP method not allowed"
+
+  task/add/:
+    post:
+      summary: "create a new task"
+      description: "create e new task"
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                  example: "team building"
+                taskDate:
+                  type: string
+                  example: "2025-03-05 14:30:45"
+                location:
+                  type: string
+                  example: "bastos"
+                description:
+                  type: string
+                  example: "recruter des stagiaire"
+      responses:
+        "201":
+          description: "Success"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  title:
+                    type: string
+                    example: "team building"
+                  taskDate:
+                    type: string
+                    example: "2025-03-05 14:30:45"
+                  location:
+                    type: string
+                    example: "bastos"
+                  description:
+                    type: string
+                    example: "recruter des stagiaire"
+        "400":
+          description: "format donnees invalid"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Format de données JSON incorrect"
+        "405":
+          description: "method HTTP non authorizer"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Format de données JSON incorrect"
+  task/edit/{id}:
+    put:
+      summary: "update a task"
+      description: "edit task"
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                  example: "team building"
+                taskDate:
+                  type: string
+                  example: "2025-03-05 14:30:45"
+                location:
+                  type: string
+                  example: "bastos"
+                description:
+                  type: string
+                  example: "recruter des stagiaire"
+                comment:
+                  type: string
+                  example: "recruter des stagiaire pour l'annee prochaine"
+      responses:
+        "201":
+          description: "Success"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    format: int64
+                    example: 8
+                  title:
+                    type: string
+                    example: "team building"
+                  taskDate:
+                    type: string
+                    example: "2025-03-05 14:30:45"
+                  location:
+                    type: string
+                    example: "bastos"
+                  description:
+                    type: string
+                    example: "recruter des stagiaire"
+        "400":
+          description: "format invalid ou comment obligatoire"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+              examples:
+                format_invalid:
+                  summary: "format de donnes invalid"
+                  value:
+                    error: "donne JSON invalide"
+                comment_required:
+                  summary: "commentaire obligatoire"
+                  value:
+                    error: "comment is required for this status : Canceled, On hold, Pending"
+        "405":
+          description: "method HTTP non authorizer"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "methode HTTP non authorise"
+  /task/delete/{id}:
+    delete:
+      summary: "supprimer une task"
+      description: "delete task"
+      security:
+        - BearerAuth: []
+      responses:
+        "200":
+          description: "Success"
+          content:
+            aplication/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "task deleted succesfully"
+        "400":
+          descirption: "format donnees invalid"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "donner JSON non valide"
+        "405":
+          description: "method HTTP non authorizer"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "methodle HTTP non autorizer"
+  task/{taskId}/comment:
+    get:
+      summary: "get task comments"
+      description: "recuperer les commentaire d'une task"
+      security:
+        - BearerAuth: []
+      responses:
+        "200":
+          description: "Success"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  comments:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          format: int64
+                          example: 8
+                        content:
+                          type: string
+                          example: "ageffour"
+                        createdAt:
+                          type: string
+                          example: "2025-03-08T12:09:30.555Z"
+        "400":
+          description: "formant donnees invalid"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "donner JSON non valide"
+        "405":
+          description: "method HTTP non authorizer"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "methodle HTTP non autorizer"
+  task/{taskId}/add-comment:
+    post:
+      summary: "add comment to task"
+      description: "ajouter un commentaire a une task"
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                content:
+                  type: string
+                  example: "Ageffour"
+      responses:
+        "201":
+          description: "Success"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    format: int64
+                    example: 8
+                  content:
+                    type: string
+                    example: "ageffour"
+                  createdAt:
+                    type: string
+                    example: "2025-03-08T12:09:30.555Z"
+        "400":
+          description: "format donnees invalid"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "error donnee json no valide"
+        "405":
+          description: "method HTTP non Authorizer"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type:
+                      example: "error method not allowed"

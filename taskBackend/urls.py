@@ -4,6 +4,7 @@ import authentication.views
 import taskManagement.views
 
 urlpatterns = [
+    path('', authentication.views.swagger_ui, name="swagger-ui"),
     path('auth/login', authentication.views.logIn, name='login'),
     path('auth/signup', authentication.views.signUp, name='signup'),
     path('auth/change_password', authentication.views.reset_password, name='change-password'),

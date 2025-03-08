@@ -137,7 +137,7 @@ def addCommentToTask(request, id):
             comment_dict = model_to_dict(comment)
             return JsonResponse(comment_dict, status=201)
         except json.JSONDecodeError:
-            return JsonResponse({'message':'error donnee json no valide'}, status=400)
+            return JsonResponse({'erro':'error donnee json no valide'}, status=400)
     else:
-        return JsonResponse({'message':'error method not allowed'}, status=405)
+        return JsonResponse({'error':'error method not allowed'}, status=405)
 

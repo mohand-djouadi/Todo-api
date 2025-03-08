@@ -1,6 +1,8 @@
 import datetime
 from random import randint
 
+from django.shortcuts import render
+
 from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from django.utils import timezone
@@ -19,6 +21,10 @@ from authentication.models import User
 from authentication.Jwt import generate_token, jwt_required
 import json
 
+#swagger render view
+@csrf_exempt
+def swagger_ui(request):
+    return render(request, "swagger.html")
 
 @csrf_exempt
 def logIn(request):
@@ -205,7 +211,7 @@ def reset_password(request):
         except json.JSONDecodeError:
             return JsonResponse({'error': 'donnee JSON invalide'}, status=400)
     else:
-        return JsonResponse({'eror': 'methode HTTP non autoriser'}, status=405)
+        return JsonResponse({'error': 'methode HTTP non autoriser'}, status=405)
 
 @csrf_exempt
 def forgot_password(request):
