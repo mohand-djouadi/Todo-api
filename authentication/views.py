@@ -1,3 +1,4 @@
+
 import datetime
 from random import randint
 
@@ -11,8 +12,15 @@ from django.utils.timezone import localtime
 
 from django.conf import settings
 from django.contrib.auth import authenticate,login,logout
+
+from django.utils.timezone import localtime
+
+from django.conf import settings
+from django.contrib.auth import authenticate, login, logout, update_session_auth_hash
+from django.core.mail import send_mail
 from django.db.models import Q
 from django.http import JsonResponse
+from django.template.loader import render_to_string
 from django.views.decorators.csrf import csrf_exempt,csrf_protect
 from django.contrib.auth.decorators import login_required
 from django.core.exceptions import ValidationError
@@ -20,6 +28,9 @@ from django.forms.models import model_to_dict
 from authentication.models import User
 from authentication.Jwt import generate_token, jwt_required
 import json
+from random import randint
+import datetime
+from django.utils import timezone
 
 #swagger render view
 @csrf_exempt
@@ -165,7 +176,6 @@ def validate_otp(request):
     else:
         return JsonResponse({'error','HTTP method not allowed'}, status=405)
 
-
 def validate_answer(request):
     if request.method == 'POST':
         try:
@@ -188,7 +198,6 @@ def validate_answer(request):
 
     else:
         return JsonResponse({'error','HTTP method not allowed'}, status=405)
-
 
 @login_required
 @csrf_exempt
