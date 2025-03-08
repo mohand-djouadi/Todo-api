@@ -6,6 +6,8 @@ info:
 servers:
   - url: https://todo-api-eeh0.onrender.com
     description: render server
+  - url: http://127.0.0.1:8000
+    description: local server
 components:
   securitySchemes:
     BearerAuth:
