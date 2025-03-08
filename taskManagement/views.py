@@ -5,10 +5,7 @@ from taskManagement.models import Task
 from django.http import JsonResponse
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import csrf_exempt
-<<<<<<< HEAD
-from authentication.Jwt import jwt_required
-=======
->>>>>>> local
+
 from django.shortcuts import get_object_or_404
 from taskManagement.models import Comment
 from authentication.Jwt import jwt_required
