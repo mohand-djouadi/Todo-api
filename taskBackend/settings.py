@@ -139,6 +139,8 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
 
+WHITENOISE_AUTOREFRESH = True
+
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
